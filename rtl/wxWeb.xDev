@@ -1,0 +1,80 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 04/12/2009 00:54:03                #
+#                                              #
+### Standard xDev Config - Layout v1.5 #########
+-->
+<project>
+   <option compiler="">
+   <option outputname="wxWeb">
+   <option targettype="LIB">
+   <option outputpath="">
+   <option root="($)">
+   <option runpath="">
+   <option runparams="">
+   <option pathch="include">
+   <option pathlib="">
+   <option pathobj="">
+   <option pathtooutput="obj">
+   <option defines="VERSAO_COMERCIAL">
+   <option documentroot="">
+   <option makeincfile="Sim">
+   <option taskprepare="">
+   <option taskfinalize="">
+
+   <unit filename="Kernel\wxConnManager.c" main="true" compile="Sim">
+   <unit filename="Kernel\wxMemvar.c" compile="Sim">
+   <unit filename="include\wxConnManager.h" compile="Sim">
+   <unit filename="include\wxweb.h" compile="Sim">
+   <unit filename="include\wxWebFramework.ch" compile="Sim">
+   <unit filename="Kernel\wxMemory.c" compile="Sim">
+   <unit filename="include\wxMemory.h" compile="Sim">
+   <unit filename="tests\test1.prg" compile="Não" prg_disabledebug="Não">
+   <unit filename="Kernel\wxRepositoryItem.c" compile="Sim">
+   <unit filename="include\wxRepositoryItem.h" compile="Sim">
+   <unit filename="CGI.txt" compile="Não">
+   <unit filename="ISAPI.txt" compile="Não">
+   <unit filename="VARs.txt" compile="Não">
+   <unit filename="ISAPI_HTTP.txt" compile="Não">
+   <unit filename="Kernel\wxSerialize.c" compile="Sim">
+   <unit filename="include\wxSerialize.h" compile="Sim">
+   <unit filename="Kernel\wxSession.c" compile="Sim">
+   <unit filename="include\wxSession.h" compile="Sim">
+   <unit filename="include\wxMemvar.h" compile="Sim">
+   <unit filename="Kernel\wxTrace.c" compile="Sim">
+   <unit filename="include\wxTrace.h" compile="Sim">
+   <unit filename="Interfaces\wxWebCGI.c" compile="Sim">
+   <unit filename="Kernel\misc\wxURL.c" compile="Sim">
+   <unit filename="Kernel\wxWebKernel.c" compile="Sim">
+   <unit filename="Kernel\misc\wxTime.c" compile="Sim">
+   <unit filename="include\wxTime.h" compile="Sim">
+   <unit filename="Kernel\Sources\wxcgifunc.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Kernel\wxCookies.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Kernel\Sources\time.c" compile="Sim">
+   <unit filename="Kernel\misc\wxStringUtils.c" compile="Sim">
+   <unit filename="include\wxBase64.h" compile="Sim">
+   <unit filename="Scripts\wxWebScript.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Scripts\wxWebTemplate.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Files\wxFilesUtils.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Kernel\wxPrintf.c" compile="Sim">
+   <unit filename="Kernel\misc\wxMD5.c" compile="Sim">
+   <unit filename="Kernel\misc\wxBase64.c" compile="Sim">
+   <unit filename="Kernel\wxWebErrorSys.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Kernel\wxErrorTemplate.h" compile="Sim">
+   <unit filename="Client\wxClientIP.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Client\wxBrowserInfo.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="ClipX\HTMLPageFormatting.c" compile="Sim">
+   <unit filename="WebControls\wxParserForm.c" compile="Sim">
+   <unit filename="W:\wxWeb\wxRequest.ch" compile="Sim">
+   <unit filename="Mimes\wxMimes.c" compile="Sim">
+   <unit filename="include\wxBuildInfo.ch" compile="Sim">
+   <unit filename="W:\include\wxWeb.ch" compile="Sim">
+   <unit filename="wxWeb.hbc" compile="Não">
+   <unit filename="wxWeb.hbm" compile="Não">
+   <unit filename="W:\Legal.txt" compile="Sim">
+   <unit filename="W:\Compiler\wxMain.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="W:\Compiler\wxErrorTable.PRG" compile="Sim" prg_disabledebug="Não">
+   <unit filename="Kernel\wxAutoLoad.prg" compile="Sim" prg_disabledebug="Não">
+   <unit filename="W:\builddoc\builddoc.prg" compile="Sim" prg_disabledebug="Não">
+</project>

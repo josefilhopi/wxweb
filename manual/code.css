@@ -1,0 +1,13 @@
+.wx-activedot { color: #800080; }
+.wx-comment { color: #008080; }
+.wx-constant { color: #800080; }
+.wx-escapeampersand { color: #00FF00; font-weight: bold; }
+.wx-function { color: #808000; }
+.wx-identifier { color: #000000; }
+.wx-number { color: #FF0000; }
+.wx-preprocessor { }
+.wx-reservedword { color: #800000; }
+.wx-space { }
+.wx-string { color: #0000FF; }
+.wx-symbol { }
+.wx-variable { color: #808000; }

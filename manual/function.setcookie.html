@@ -1,0 +1,157 @@
+
+<title>wxWeb Reference Guide</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="code.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+      <td background="Top.jpg" height="43px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="90%" class="topic_tree"><a href="intro.html">wxWeb v1.9.7 <i>for Harbour</i></a></td>
+            <td width="10%" align="right"><a href="http://code.google.com/p/wxweb/" target="_blank"><img src="logo_opensource.png" width="50" height="50" border="0"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="33%" align="left" valign="middle"><a href="function.session-write.html"><img border="0" src="back.png" alt="SESSION_WRITE()" width="24" height="24">&nbsp;</a>&nbsp;</td>
+            <td width="33%">&nbsp;</td>
+            <td width="33%" align="right">&nbsp;&nbsp;<a href="function.timediffasseconds.html"><img border="0" src="forward.png" alt="TimeDiffAsSeconds()" width="24" height="24"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><div class="mg_tab"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><span class="syntax_name">SetCookie()</span></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Cria, atualiza ou apaga um cookie do navegador do usu&aacute;rio.</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+            <td><h3>Sintaxe:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="syntax_text">SetCookie( &lt;cName&gt;, [&lt;cValue&gt;], [&lt;nSecsToExpires&gt;],[&lt;cServerPath&gt;], [&lt;cDomainName&gt;], [&lt;bSecure&gt;], [&lt;bHttpOnly&gt;] ) -&gt; lOk </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+
+         <tr>
+            <td><h3>Argumentos:</h3></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cName&gt;</i></b><br><div class="mg_text">             O nome do cookie que ser&aacute; manipulado. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cValue&gt;</i></b><br><div class="mg_text">            O valor do cookie. Esse valor &eacute; guardado no computador do cliente e n&atilde;o &eacute; recomendado guardar nenhum informa&ccedil;&atilde;o confidencial atrav&eacute;s deste tipo de recurso. Utilize a fun&ccedil;&atilde;o wxGetCookie() para obter o valor previamente armazenado em um Cookie. Se este argumento for omitido o Cookie ser&aacute; excluido da CPU do usu&aacute;rio. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;nSecsToExpires&gt;</i></b><br><div class="mg_text">    O tempo em segundos para o cookie expirar. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cServerPath&gt;</i></b><br><div class="mg_text">       O PATH no servidor aonde o cookie estar&aacute; dispon&iacute;vel. Se configurado para '/', o cookie estar&aacute; dospon&iacute;vel para todo o dom&iacute;nio. Se configurado para o diret&oacute;rio '/test/', o cookie estar&aacute; dispon&iacute;vel apenas dentro do diret&oacute;rio /test/ e todos os subdiret&oacute;rios como /test/dbf do dom&iacute;nio. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cDomainName&gt;</i></b><br><div class="mg_text">       O dom&iacute;nio para qual o dom&iacute;nio estar&aacute; dispon&iacute;vel. Para fazer com que ele esteja dispon&iacute;vel para todos os subdom&iacute;nios de examplo.com ent&atilde;o voc&ecirc; deve configurar ele para '.exemplo.com'. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;bSecure&gt;</i></b><br><div class="mg_text">           Indica que o cookie s&oacute; podera ser transimitido sob uma conex&atilde;o segura HTTPS do cliente. Quando configurado para .T. o cookie ser&aacute; enviado somente se uma conex&atilde;o segura existir. O padr&atilde;o &eacute; .F. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;bHttpOnly&gt;</i></b><br><div class="mg_text">         Quando for especificado como .T. o cookie ser&aacute; acess&iacute;vel somente sob o protocolo HTTP. Isso &eacute; importante pois significa que o cookie n&atilde;o ser&aacute; acess&iacute;vel por linguagens de script, como JavaScript entre outros. <br>&nbsp;<div></div></td>
+         </tr>
+
+
+
+         <tr>
+            <td><h3>Descri&ccedil;&atilde;o:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Cria, atualiza ou apaga um cookie do navegador do usu&aacute;rio. Esta fun&ccedil;&atilde;o envia os dados sobre o cookie selecinoado juntamente com o resto dos cabe&ccedil;alhos HTTP. Assim como os outros cabe&ccedil;alhos (headers), os cookies devem ser enviados antes de qualquer sa&iacute;da que seu programa produza (isto se deve &agrave; uma restri&ccedil;&atilde;o do protocolo HTTP). <br><br>O que quer dizer que voc&ecirc; deve colocar chamadas a essa fun&ccedil;&atilde;o antes de qualquer comando ou fun&ccedil;&atilde;o que gere sa&iacute;da, incluindo os espa&ccedil;os e linhas em branco. <br><br>Uma vez que o cookie foi criado, a wxWeb disponibiliza fun&ccedil;&otilde;es para que voc&ecirc; possa acessar, consultar e at&eacute; enumerar os cookies dispon&iacute;veis no navegador do usu&aacute;rio. </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr><tr>
+            <td><h3>Info:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="info_text">
+               <table width="100%" border="0" cellspacing="1" cellpadding="1">
+
+                  <tr>
+                     <td><b> Source: </b><span class="info_text_mono">W:\rtl\Kernel\wxCookies.prg</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> Revisado em: </b><span class="info_text_mono">22/11/2006 as 11:48:17</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> See also: </b><a href="function.wxgetcookie.html" class="info_seealso">WXGETCOOKIE()</a>, <a href="function.wxgetcookiename.html" class="info_seealso">WXGETCOOKIENAME()</a>, <a href="function.wxgetcookiecount.html" class="info_seealso">WXGETCOOKIECOUNT()</a>, <a href="function.wxcookieexists.html" class="info_seealso">WXCOOKIEEXISTS()</a>, <a href="function.deletecookie.html" class="info_seealso">DeleteCookie()</a></td>
+                  </tr>
+
+               </table>
+            </div></td>
+         </tr>
+
+
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><h3>Exemplo :</h3></td>
+         </tr>
+         <tr>
+            <td><div class="code_text"><pre><code> <span class="wx-constant">#include</span> <span class="wx-string">"wxweb.ch"</span>  
+ 
+    name := <span class="wx-string">"myCookie"</span>  
+ 
+ <span class="wx-comment">// Atualizamos o cookie se ele existir. Caso o cookie n&atilde;o exista esta fun&ccedil;&atilde;o ir&aacute;  </span>
+ <span class="wx-comment">// cri&aacute;-lo e ele estar&aacute; dispon&iacute;vel na pr&oacute;xima vez que o usuario executar este  </span>
+ <span class="wx-comment">// aplicativo novamente.  </span>
+    SetCookie( name, time(), <span class="wx-number">360</span> )  
+ 
+    <span class="wx-reservedword">IF</span> wxCookieExists( name )  
+       <span class="wx-function">?</span> <span class="wx-string">"O cookie "</span> + name + <span class="wx-string">" existe!"</span>, br()  
+       <span class="wx-function">?</span> <span class="wx-string">"Sua ultima visita a esta pagina foi em"</span>, ;  
+             wxUrlDecode( wxGetCookie( name ) )  
+    <span class="wx-reservedword">ELSE</span>  
+       <span class="wx-function">?</span> <span class="wx-string">"O cookie "</span> + name + <span class="wx-string">" NAO existe!"</span>  
+    <span class="wx-reservedword">End</span>  
+ 
+    <span class="wx-function">?</span> br()  
+    <span class="wx-function">?</span> HREF( <span class="wx-string">'demo.exe'</span>, <span class="wx-string">'Clique aqui para atualizar'</span> )  
+    <span class="wx-function">?</span>  
+</code></pre> 
+</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         </table>
+      </div></td>
+   </tr>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>

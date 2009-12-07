@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>wxWeb Powered!</title>
+<style type="text/css">
+<!--
+#form1 table tr td #imageField {
+	text-align: right;
+}
+-->
+</style>
+<SCRIPT LANGUAGE="JavaScript">
+
+function Valid()
+{
+   msg = "";
+
+   if (document.form.cod.value == "")
+   {
+      msg += "\n     -  Codigo";
+   }
+   if (document.form.desc.value == "")
+   {
+      msg += "\n     -  Descricao";
+   }
+   if (document.form.val.value == "")
+   {
+      msg += "\n     -  Valor R$";
+   }
+   
+   if (msg != "")
+   {
+      msg = "Voce deve preencher os seguintes campos:\n" +
+            "antes de prosseguir:\n" +
+             msg + "\n_____________________________" +
+             "\nPor favor corrija estes detalhes para continuar!";
+      alert(msg);
+      return false;
+   } else { 
+      return true;
+   }
+}
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="demo.exe" onSubmit="return Valid();">
+   Editando Registro <strong>{%rec%}</strong>
+   <table width="416" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+         <td width="72">C&oacute;digo </td>
+         <td width="286"><input name="cod" type="text" id="cod" value="{%COD%}" size="10" maxlength="10" /></td>
+         <td width="58" rowspan="4"><input type="image" name="imageField" id="imageField" src="edit.gif" /></td>
+      </tr>
+      <tr>
+         <td>Descri&ccedil;&atilde;o</td>
+         <td><input name="desc" type="text" id="desc" value="{%DESC%}" size="40" maxlength="40" /></td>
+      </tr>
+      <tr>
+         <td>Valor R$ </td>
+         <td><input name="val" type="text" id="val" value="{%VAL%}" size="11" maxlength="11" /></td>
+      </tr>
+      <tr>
+         <td>Quant.</td>
+         <td>{%EST%}</td>
+      </tr>
+   </table>
+   <br />
+   <input type="submit" name="Submit" value="Salvar" />
+   <input type="submit" name="Submit" value="Cancelar" />&nbsp;&nbsp;&nbsp;
+   <input name="registro" type="hidden" id="registro" value="{%rec%}" />
+</form>
+
+</body>
+</html>

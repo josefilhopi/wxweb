@@ -1,0 +1,52 @@
+#-------------------------------------------------------------------------------
+#
+#  Projeto WxWeb
+#
+#  Inicio...: Maio / 2006
+#
+#  Revisado.: 23/11/2009 - 15:14:35
+#
+#  Por......: Vailton Renato da Silva
+#
+#  Arquivo..: wxWeb.hbp
+#
+#  Lista de arquivos do projeto para compila‡Æo
+#
+#-------------------------------------------------------------------------------
+
+-hblib -o../lib/wxWeb
+-tshead=./include/wxBuildInfo.ch
+
+Kernel\wxAutoLoad.prg
+Kernel\wxWebErrorSys.prg
+Kernel\wxCookies.prg
+Kernel\wxConnManager.c
+#Kernel\wxMemvar.c
+Kernel\wxMemory.c
+Kernel\wxRepositoryItem.c
+Kernel\wxSerialize.c
+Kernel\wxSession.c
+Kernel\wxTrace.c
+Kernel\misc\wxURL.c
+Kernel\wxWebKernel.c
+Kernel\misc\wxTime.c
+Kernel\wxPrintf.c
+Kernel\misc\wxBase64.c
+Kernel\misc\wxMD5.c
+Kernel\misc\wxStringUtils.c
+Kernel\Sources\time.c
+Kernel\Sources\wxCgifunc.prg
+
+Interfaces\wxWebCGI.c
+
+Client\wxClientIP.prg
+Client\wxBrowserInfo.prg
+
+Files\wxFilesUtils.prg
+
+ClipX\HTMLPageFormatting.c
+WebControls\wxParserForm.c
+Mimes\wxMimes.c
+
+Scripts\wxWebScript.prg
+Scripts\wxWebTemplate.prg

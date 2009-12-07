@@ -1,0 +1,168 @@
+
+<title>wxWeb Reference Guide</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="code.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+      <td background="Top.jpg" height="43px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="90%" class="topic_tree"><a href="intro.html">wxWeb v1.9.7 <i>for Harbour</i></a></td>
+            <td width="10%" align="right"><a href="http://code.google.com/p/wxweb/" target="_blank"><img src="logo_opensource.png" width="50" height="50" border="0"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="33%" align="left" valign="middle"><a href="function.wxsendheaderdirect.html"><img border="0" src="back.png" alt="WXSENDHEADERDIRECT()" width="24" height="24">&nbsp;</a>&nbsp;</td>
+            <td width="33%">&nbsp;</td>
+            <td width="33%" align="right">&nbsp;&nbsp;<a href="function.wxservercount.html"><img border="0" src="forward.png" alt="WXSERVERCOUNT()" width="24" height="24"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><div class="mg_tab"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><span class="syntax_name">WXSERVER()</span></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Manipula as vari&aacute;veis de ambiente espec&iacute;ficas de uma determinada conex&atilde;o.</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+            <td><h3>Sintaxe:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="syntax_text">wxServer( [&lt;pConn&gt; ,] &lt;nIndex | cKeyName&gt; [, &lt;cValue&gt; [, &lt;cKeyName&gt; ]] ) -&gt; cValue </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+
+         <tr>
+            <td><h3>Argumentos:</h3></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;pConn&gt;</i></b><br><div class="mg_text">         O ponteiro para a conex&atilde;o que ser&aacute; manipulado. Se omitido a conex&atilde;o ativa baseada na thread atual ser&aacute; utilizada. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;nIndex|cKeyName&gt;</i></b><br><div class="mg_text">   &Eacute; um valor num&eacute;rico (indicando uma posi&ccedil;&atilde;o espec&iacute;fica) da variavel de ambiente que se deseja manipular. Se o objetivo for apenas consultar ou alterar o conte&uacute;do de uma vari&aacute;vel j&aacute; existente, &eacute; poss&iacute;vel fornecer neste par&acirc;metro o nome (ou ALIAS) da vari&aacute;vel desejada. Caso o programador deseje registrar uma nova vari&aacute;vel de ambiente utilizando wxServer() ser&aacute; obrigat&oacute;rio informar um valor num&eacute;rico neste par&acirc;metro, representando assim o n&uacute;mero do elemento que desejamos alterar dentro da pilha de vari&aacute;veis dispon&iacute;veis. <br><br>Nota: &Eacute; importante lembrar-se que internamente a wxServer() manipula estas vari&aacute;veis de ambiente utilizando uma lista ligada e devido &agrave; isto existe a op&ccedil;&atilde;o de se cadastrar um "alias" para esta posi&ccedil;&atilde;o na mem&oacute;ria utilizando o quarto par&acirc;metro &lt;cKeyName&gt; visando facilitar futuras refer&ecirc;ncias &agrave; esta vari&aacute;vel. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cValue&gt;</i></b><br><div class="mg_text">        &Eacute; o valor caracter que ser&aacute; atribuido &agrave; variavel de ambiente. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cKeyName&gt;</i></b><br><div class="mg_text">      Caso estejamos registrando uma nova vari&aacute;vel de ambiente, este argumento representa o "alias" que ser&aacute; atribuido &agrave; esta variavel. <br>&nbsp;<div></div></td>
+         </tr>
+
+
+
+         <tr>
+            <td><h3>Descri&ccedil;&atilde;o:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Manipula as vari&aacute;veis de ambiente espec&iacute;ficas de uma determinada conex&atilde;o. </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr><tr>
+            <td><h3>Info:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="info_text">
+               <table width="100%" border="0" cellspacing="1" cellpadding="1">
+
+                  <tr>
+                     <td><b> Source: </b><span class="info_text_mono">W:\rtl\Kernel\wxConnManager.c</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> Revisado em: </b><span class="info_text_mono">08/07/2008 as 10:23:23</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> See also: </b><a href="function.wxservername.html" class="info_seealso">WXSERVERNAME()</a>, <a href="function.wxgetenv.html" class="info_seealso">WXGETENV()</a>, <span class="info_seealso_bad">wxServerAdd()</span>, <a href="function.wxservercount.html" class="info_seealso">WXSERVERCOUNT()</a></td>
+                  </tr>
+
+               </table>
+            </div></td>
+         </tr>
+
+
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><h3>Exemplo 1:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="code_text"><pre><code> <span class="wx-constant">#include</span> <span class="wx-string">"wxweb.ch"</span>  
+ <span class="wx-reservedword">FUNCTION</span> main()  
+ 
+    <span class="wx-function">?</span> wxServer( QUERY_STRING, <span class="wx-string">"#############"</span> )  
+    <span class="wx-function">?</span> wxServer( SERVER_PROTOCOL, <span class="wx-string">"CGI/1.1"</span>, <span class="wx-string">"SERVER_PROTOCOL"</span> )  
+ 
+ <span class="wx-comment">// String no primeiro argumento &eacute; apenas para CONSULTA e ALTERACAO. Nao para cadastro!  </span>
+    <span class="wx-function">?</span> wxServer( <span class="wx-string">"SERVER_PROTOCOL"</span>, <span class="wx-string">"CGI/1.0"</span> )  
+</code></pre> 
+</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><h3>Exemplo 2:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="code_text"><pre><code> <span class="wx-constant">#include</span> <span class="wx-string">"wxweb.ch"</span>  
+ <span class="wx-reservedword">FUNCTION</span> main()  
+ 
+  <span class="wx-comment">*</span> <span class="wx-number">1º</span> Passo: Criamos a conex&atilde;o desejada e colocamos um HANDLE opcional nela  
+    nHandle := wxConnection_Create( <span class="wx-number">1</span> )  
+  <span class="wx-comment">*</span> <span class="wx-number">2º</span> Passo: Ajustamos algumas variaveis internas da wxWeb  
+    wxServerCount( nHandle, MAX_SERVER_VARS )  
+    wxServer( nHandle, REQUEST_METHOD, <span class="wx-string">'POST'</span>, <span class="wx-string">"REQUEST_METHOD"</span> )  
+    wxServer( nHandle, REMOTE_ADDR   , <span class="wx-string">'127.0.0.1'</span>, <span class="wx-string">"REMOTE_ADDR"</span> )  
+ 
+  <span class="wx-comment">*</span> Simulamos o preenchimento de campos via <span class="wx-function">GET</span> na primeira linha logo abaixo e  
+  <span class="wx-comment">*</span> <span class="wx-function">os</span> via POST na segunda.  
+    wxServer( nHandle, QUERY_STRING  , <span class="wx-string">'nome=Jos%E9+Garcia+dos+Santos&amp;id=1'</span>, <span class="wx-string">"QUERY_STRING"</span> )  
+    wxServer( nHandle, HTTP_CONTENT_BUFFER, <span class="wx-string">'end=Rua+Maria+Rosa+Greggo+Rogato%2C+n%BA+40&amp;cep=04932240'</span>, <span class="wx-string">"HTTP_CONTENT_BUFFER"</span> )  
+ 
+    wxConnection_Prepare( nHandle)  
+ 
+    ...  
+ 
+    wxConnection_Destroy( nHandle )  
+    <span class="wx-reservedword">RETURN</span> nil  
+</code></pre> 
+</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         </table>
+      </div></td>
+   </tr>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>

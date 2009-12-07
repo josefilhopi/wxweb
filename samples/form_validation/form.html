@@ -1,0 +1,74 @@
+<html>
+<title>FORM Validation</title>
+<HEAD>
+<!-- Dois passos para validar um formul rio via JavaScript:
+
+  1.  O primeiro passo ‚ a por‡Æo de c¢digo escrita logo abaixo com
+      a fun‡Æo para validar os campos necess rios.
+  2.  O segundo passo ‚ configurar o FORM para executar nossa fun‡Æo 
+      no momento em que o usuario desejar confirmar os dados do FORM.
+
+<!-- STEP ONE: Paste this code into the HEAD of your HTML document  -->
+<SCRIPT LANGUAGE="JavaScript">
+
+function Valid()
+{
+   msg = "";
+
+   if (document.form.nome.value == "")
+   {
+      msg += "\n     -  Nome";
+   }
+   if ((document.form.mail.value == "") || 
+       (document.form.mail.value.indexOf('@') == -1) || 
+       (document.form.mail.value.indexOf('.') == -1)) 
+   {
+      msg += "\n     -  Endereco de E-mail";
+   }
+   
+   if ((document.form.site.value == "") || 
+       (document.form.site.value.indexOf("http://") == -1) || 
+       (document.form.site.value.indexOf(".") == -1)) 
+   {
+      msg += "\n     -  Web site";
+   }
+   
+   if(document.form.comentario.value == "")
+   {
+      msg += "\n     -  Comentarios";
+   }
+   
+   if (msg != "")
+   {
+      msg = "Voce deve preencher os seguintes campos:\n" +
+            "antes de prosseguir:\n" +
+             msg + "\n_____________________________" +
+             "\nPor favor corrija estes detalhes para continuar!";
+      alert(msg);
+      return false;
+   } else { 
+      return true;
+   }
+}
+</script>
+</HEAD>
+<body>
+<form name="form" method="post" action="demo.exe" onSubmit="return Valid();">
+   <pre>
+      Os campos marcados com "*" sao de preenchimento obrigatorio:
+      
+      *Nome:      <input type=text name="nome" size=30>
+      
+      *E-mail:    <input type=text name="mail" size=30>
+      
+      *Web Site:  <input type=text value="http://" name="site" size=30>
+      
+      *Comentarios:  
+      
+      <textarea rows=3 cols=40 name="comentario"></textarea>
+      
+      <input type=submit name="btnConfirm" value="Confirmar!">
+   </pre>
+</form>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+<title>wxWeb Reference Guide</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="code.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+      <td background="Top.jpg" height="43px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="90%" class="topic_tree"><a href="intro.html">wxWeb v1.9.7 <i>for Harbour</i></a></td>
+            <td width="10%" align="right"><a href="http://code.google.com/p/wxweb/" target="_blank"><img src="logo_opensource.png" width="50" height="50" border="0"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="33%" align="left" valign="middle"><a href="function.extractfilepath.html"><img border="0" src="back.png" alt="ExtractFilePath()" width="24" height="24">&nbsp;</a>&nbsp;</td>
+            <td width="33%">&nbsp;</td>
+            <td width="33%" align="right">&nbsp;&nbsp;<a href="function.session-clear.html"><img border="0" src="forward.png" alt="SESSION_CLEAR()" width="24" height="24"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><div class="mg_tab"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><span class="syntax_name">SESSION()</span></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Esta fun&ccedil;&atilde;o cria, modifica ou exclui o conteudo de uma vari&aacute;vel de sess&atilde;o para a conex&atilde;o atual.</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+            <td><h3>Sintaxe:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="syntax_text">Session( [ &lt;pConnection&gt;, ] &lt;cKeyName&gt; [, &lt;xValue&gt; ] ) -&gt; xOldValue </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+
+         <tr>
+            <td><h3>Argumentos:</h3></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;pConnection&gt;</i></b><br><div class="mg_text">  &Eacute; um parametro (pointer) que identifica a conex&atilde;o &agrave; qual desejamos operar. Este parametro dever&aacute; ser omitido em circunst&acirc;ncias normais, pois seu uso torna-se mais evidente em ambientes multi-thread ou que utilizem servidores de dados personalizados. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cKeyName&gt;</i></b><br><div class="mg_text">     &Eacute; o nome da variavel de sess&atilde;o que desejamos consultar/alterar/excluir. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;xValue&gt;</i></b><br><div class="mg_text">       &Eacute; um par&acirc;metro opcional que cont&eacute;m o valor que dever&aacute; ser preservado para esta vari&aacute;vel de sess&atilde;o. Atribuindo o valor NIL para uma variavel de sess&atilde;o existente for&ccedil;ar&aacute; a mesma a ser removida. <br><br>A wxWeb suporta que sejam guardados v&aacute;rios tipos de valores dentro de uma vari&aacute;vel de sess&atilde;o tais como texto, n&uacute;meros, data, valores l&oacute;gicos, memos, objetos e arrays. <br>&nbsp;<div></div></td>
+         </tr>
+
+
+
+         <tr>
+            <td><h3>Descri&ccedil;&atilde;o:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Esta fun&ccedil;&atilde;o cria, modifica ou exclui o conteudo de uma vari&aacute;vel de sess&atilde;o para a conex&atilde;o atual. </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr><tr>
+            <td><h3>Info:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="info_text">
+               <table width="100%" border="0" cellspacing="1" cellpadding="1">
+
+                  <tr>
+                     <td><b> Source: </b><span class="info_text_mono">W:\rtl\Kernel\wxSession.c</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> Revisado em: </b><span class="info_text_mono">11/07/2008 as 22:06:43</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> See also: </b><a href="function.session-clear.html" class="info_seealso">SESSION_CLEAR()</a>, <a href="function.session-count.html" class="info_seealso">SESSION_COUNT()</a>, <a href="function.session-destroy.html" class="info_seealso">SESSION_DESTROY()</a>, <a href="function.session-exist.html" class="info_seealso">SESSION_EXIST()</a>, <a href="function.session-getname.html" class="info_seealso">SESSION_GETNAME()</a>, <a href="function.session-id.html" class="info_seealso">SESSION_ID()</a>, <a href="function.session-name.html" class="info_seealso">SESSION_NAME()</a>, <a href="function.session-savepath.html" class="info_seealso">SESSION_SAVEPATH()</a>, <a href="function.session-start.html" class="info_seealso">SESSION_START()</a>, <a href="function.session-started.html" class="info_seealso">SESSION_STARTED()</a>, <a href="function.session-write.html" class="info_seealso">SESSION_WRITE()</a></td>
+                  </tr>
+
+               </table>
+            </div></td>
+         </tr>
+
+
+         </table>
+      </div></td>
+   </tr>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>

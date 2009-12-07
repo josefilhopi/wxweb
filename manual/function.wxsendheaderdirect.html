@@ -1,0 +1,103 @@
+
+<title>wxWeb Reference Guide</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="code.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+      <td background="Top.jpg" height="43px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="90%" class="topic_tree"><a href="intro.html">wxWeb v1.9.7 <i>for Harbour</i></a></td>
+            <td width="10%" align="right"><a href="http://code.google.com/p/wxweb/" target="_blank"><img src="logo_opensource.png" width="50" height="50" border="0"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="33%" align="left" valign="middle"><a href="function.wxsendheader.html"><img border="0" src="back.png" alt="WXSENDHEADER()" width="24" height="24">&nbsp;</a>&nbsp;</td>
+            <td width="33%">&nbsp;</td>
+            <td width="33%" align="right">&nbsp;&nbsp;<a href="function.wxserver.html"><img border="0" src="forward.png" alt="WXSERVER()" width="24" height="24"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><div class="mg_tab"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><span class="syntax_name">WXSENDHEADERDIRECT()</span></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Envia um HEADER de baixo nivel ao navegador do usuario usando diretamente o ponteiro de conex&atilde;o passado como primeiro argumento.</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+            <td><h3>Sintaxe:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="syntax_text">wxSendHeaderDirect( &lt;pConn&gt;, &lt;cHeader&gt; ) -&gt; NIL </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+
+         <tr>
+            <td><h3>Argumentos:</h3></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;pConn&gt;</i></b><br><div class="mg_text">    O pointer para a conex&atilde;o de destino para envio dos dados. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cHeader&gt;</i></b><br><div class="mg_text">  O cabe&ccedil;alho HTTP &agrave; ser enviado para a conex&atilde;o. <br>&nbsp;<div></div></td>
+         </tr>
+
+
+
+         <tr>
+            <td><h3>Descri&ccedil;&atilde;o:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Envia um HEADER de baixo nivel ao navegador do usuario usando diretamente o ponteiro de conex&atilde;o passado como primeiro argumento. Devido &agrave; esta caracter&iacute;stica esta fun&ccedil;&atilde;o tende a ser mais r&aacute;pida em ambiente multi-threads pois evita qualquer tipo de busca tentando localizar a conex&atilde;o ativa na pilha de conex&otilde;es ativa. </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr><tr>
+            <td><h3>Info:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="info_text">
+               <table width="100%" border="0" cellspacing="1" cellpadding="1">
+
+                  <tr>
+                     <td><b> Source: </b><span class="info_text_mono">W:\rtl\Kernel\wxConnManager.c</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> Revisado em: </b><span class="info_text_mono">22/11/2006 as 11:48:17</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> See also: </b><a href="function.wxsendheader.html" class="info_seealso">WXSENDHEADER()</a>, <a href="function.wxqout.html" class="info_seealso">WXQOUT()</a>, <a href="function.wxqqout.html" class="info_seealso">WXQQOUT()</a></td>
+                  </tr>
+
+               </table>
+            </div></td>
+         </tr>
+
+
+         </table>
+      </div></td>
+   </tr>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>

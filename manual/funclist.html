@@ -1,0 +1,137 @@
+
+<!--
+ /*
+  * Esta página possui uma busca automatica em jQuery e foi baseada no excelente artigo de John Nunemaker
+  * disponivel a todos em http://orderedlist.com/articles/live-search-with-quicksilver-style/ e foi adaptada
+  * por Vailton Renato para uso na documentação da wxWeb! 
+  * 02/12/2009 - 13:12
+  */
+-->
+<html> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+<title>wxWeb Reference Guide</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+form				{margin:0; padding:5px 7px;}
+form input		{padding:2px; width:85%;}
+form img 		{padding:2px; cursor: hand; padding-bottom: 0px;}
+
+ul#posts			{list-style:none; margin:20px 0; padding:0;}
+ul#posts li		{border-bottom:1px solid #D7D6D5; margin:0; padding:5px 7px; }
+-->
+</style>
+	<script type="text/javascript" src="jquery.js"></script> 
+	<script type="text/javascript" src="quicksilver.js"></script> 
+	<script type="text/javascript" src="jquery.livesearch.js"></script> 
+	<script type="text/javascript" charset="utf-8"> 
+		$(document).ready(function() {
+			$('#wxq').liveUpdate('posts').focus();
+			$("#del").click(function() {
+				$("#form")[0].reset();
+				$("#posts").children('li').show();
+				$('#wxq').liveUpdate('posts').focus();
+			});			
+		});
+	</script> 
+</head> 
+<body> 
+<div id="wrapper">&nbsp;<br />&nbsp;&nbsp;Pesquisar:<br> 	
+	<form method="get" name="form" id="form"> 
+		<div><input type="text" value="" name="wxq" id="wxq" /> <img src="remove.png" name="del" width="16" height="16" id="del"></div> 
+	</form>  
+	<ul id="posts"> 			
+<li><a href="function.addsecondstotime.html" target="direita">AddSecondsToTime()</a></li>
+<li><a href="function.adjustpath.html" target="direita">AdjustPath()</a></li>
+<li><a href="function.datetogmt.html" target="direita">DateToGMT()</a></li>
+<li><a href="function.deletecookie.html" target="direita">DeleteCookie()</a></li>
+<li><a href="function.extractfileext.html" target="direita">ExtractFileExt()</a></li>
+<li><a href="function.extractfilename.html" target="direita">ExtractFileName()</a></li>
+<li><a href="function.extractfilenameex.html" target="direita">ExtractFileNameEx()</a></li>
+<li><a href="function.extractfilepath.html" target="direita">ExtractFilePath()</a></li>
+<li><a href="function.session.html" target="direita">Session()</a></li>
+<li><a href="function.session-clear.html" target="direita">Session_Clear()</a></li>
+<li><a href="function.session-count.html" target="direita">Session_Count()</a></li>
+<li><a href="function.session-destroy.html" target="direita">Session_Destroy()</a></li>
+<li><a href="function.session-exist.html" target="direita">Session_Exist()</a></li>
+<li><a href="function.session-getname.html" target="direita">Session_GetName()</a></li>
+<li><a href="function.session-id.html" target="direita">Session_ID()</a></li>
+<li><a href="function.session-name.html" target="direita">Session_Name()</a></li>
+<li><a href="function.session-savepath.html" target="direita">Session_SavePath()</a></li>
+<li><a href="function.session-start.html" target="direita">Session_Start()</a></li>
+<li><a href="function.session-started.html" target="direita">Session_Started()</a></li>
+<li><a href="function.session-write.html" target="direita">Session_Write()</a></li>
+<li><a href="function.setcookie.html" target="direita">SetCookie()</a></li>
+<li><a href="function.timediffasseconds.html" target="direita">TimeDiffAsSeconds()</a></li>
+<li><a href="function.wxconnection-cachetype.html" target="direita">wxConnection_CacheType()</a></li>
+<li><a href="function.wxconnection-create.html" target="direita">wxConnection_Create()</a></li>
+<li><a href="function.wxconnection-destroy.html" target="direita">wxConnection_Destroy()</a></li>
+<li><a href="function.wxconnection-exit.html" target="direita">wxConnection_Exit()</a></li>
+<li><a href="function.wxconnection-init.html" target="direita">wxConnection_Init()</a></li>
+<li><a href="function.wxconnection-prepare.html" target="direita">wxConnection_Prepare()</a></li>
+<li><a href="function.wxcookieexists.html" target="direita">wxCookieExists()</a></li>
+<li><a href="function.wxfieldexists.html" target="direita">wxFieldExists()</a></li>
+<li><a href="function.wxgetconfig.html" target="direita">wxGetConfig()</a></li>
+<li><a href="function.wxgetcookie.html" target="direita">wxGetCookie()</a></li>
+<li><a href="function.wxgetcookiecount.html" target="direita">wxGetCookieCount()</a></li>
+<li><a href="function.wxgetcookiename.html" target="direita">wxGetCookieName()</a></li>
+<li><a href="function.wxgetdefaultparam.html" target="direita">wxGetDefaultParam()</a></li>
+<li><a href="function.wxgetenv.html" target="direita">wxGetEnv()</a></li>
+<li><a href="function.wxgetfield.html" target="direita">wxGetField()</a></li>
+<li><a href="function.wxgetfieldcount.html" target="direita">wxGetFieldCount()</a></li>
+<li><a href="function.wxgetfieldname.html" target="direita">wxGetFieldName()</a></li>
+<li><a href="function.wxloadconfigfromfile.html" target="direita">wxLoadConfigFromFile()</a></li>
+<li><a href="function.wxqout.html" target="direita">wxQout()</a></li>
+<li><a href="function.wxqoutdirect.html" target="direita">wxQoutDirect()</a></li>
+<li><a href="function.wxqqout.html" target="direita">wxQQout()</a></li>
+<li><a href="function.wxqqoutdirect.html" target="direita">wxQQoutDirect()</a></li>
+<li><a href="function.wxredirect.html" target="direita">wxRedirect()</a></li>
+<li><a href="function.wxsendheader.html" target="direita">wxSendHeader()</a></li>
+<li><a href="function.wxsendheaderdirect.html" target="direita">wxSendHeaderDirect()</a></li>
+<li><a href="function.wxserver.html" target="direita">wxServer()</a></li>
+<li><a href="function.wxservercount.html" target="direita">wxServerCount()</a></li>
+<li><a href="function.wxservername.html" target="direita">wxServerName()</a></li>
+<li><a href="function.wxwebregisteroutputfunc.html" target="direita">wxWebRegisterOutputFunc()</a></li>
+<li><a href="function.webadjustpath.html" target="direita">WebAdjustPath()</a></li>
+<li><a href="function.wxbrowsername.html" target="direita">wxBrowserName()</a></li>
+<li><a href="function.wxbrowserversion.html" target="direita">wxBrowserVersion()</a></li>
+<li><a href="function.wxchromeversion.html" target="direita">wxChromeVersion()</a></li>
+<li><a href="function.wxclientip.html" target="direita">wxClientIP()</a></li>
+<li><a href="function.wxdevicetype.html" target="direita">wxDeviceType()</a></li>
+<li><a href="function.wxfirefoxversion.html" target="direita">wxFireFoxVersion()</a></li>
+<li><a href="function.wxgetclientuseragent.html" target="direita">wxGetClientUserAgent()</a></li>
+<li><a href="function.wxgetdeviceres.html" target="direita">wxGetDeviceRes()</a></li>
+<li><a href="function.wxhave64proc.html" target="direita">wxHave64Proc()</a></li>
+<li><a href="function.wxieversion.html" target="direita">wxIEversion()</a></li>
+<li><a href="function.wxischrome.html" target="direita">wxIsChrome()</a></li>
+<li><a href="function.wxisfirefox.html" target="direita">wxIsFireFox()</a></li>
+<li><a href="function.wxisie.html" target="direita">wxIsIE()</a></li>
+<li><a href="function.wxislinux.html" target="direita">wxIsLinux()</a></li>
+<li><a href="function.wxismac.html" target="direita">wxIsMAC()</a></li>
+<li><a href="function.wxisopera.html" target="direita">wxIsOpera()</a></li>
+<li><a href="function.wxispalmos.html" target="direita">wxIsPalmOS()</a></li>
+<li><a href="function.wxispocketpc.html" target="direita">wxIsPocketPC()</a></li>
+<li><a href="function.wxissafari.html" target="direita">wxIsSafari()</a></li>
+<li><a href="function.wxissmartphone.html" target="direita">wxIsSmartPhone()</a></li>
+<li><a href="function.wxisunix.html" target="direita">wxIsUnix()</a></li>
+<li><a href="function.wxiswin31.html" target="direita">wxIsWin31()</a></li>
+<li><a href="function.wxiswin32.html" target="direita">wxIsWin32()</a></li>
+<li><a href="function.wxiswin7.html" target="direita">wxIsWin7()</a></li>
+<li><a href="function.wxiswin95.html" target="direita">wxIsWin95()</a></li>
+<li><a href="function.wxiswin98.html" target="direita">wxIsWin98()</a></li>
+<li><a href="function.wxiswinme.html" target="direita">wxIsWinME()</a></li>
+<li><a href="function.wxiswinse.html" target="direita">wxIsWinSE()</a></li>
+<li><a href="function.wxiswinvista.html" target="direita">wxIsWinVista()</a></li>
+<li><a href="function.wxiswinxp.html" target="direita">wxIsWinXP()</a></li>
+<li><a href="function.wxiswinxpsp2.html" target="direita">wxIsWinXPSP2()</a></li>
+<li><a href="function.wxosversion.html" target="direita">wxOSVersion()</a></li>
+<li><a href="function.wxoperaversion.html" target="direita">wxOperaVersion()</a></li>
+<li><a href="function.wxpalmosversion.html" target="direita">wxPalmOSVersion()</a></li>
+<li><a href="function.wxsafariversion.html" target="direita">wxSafariVersion()</a></li>
+
+	</ul> 
+</div> 
+ 
+</body> 
+</html>

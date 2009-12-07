@@ -1,0 +1,23 @@
+#-------------------------------------------------------------------------------
+#
+#  Projeto WxWeb
+#
+#  Inicio...: Maio / 2006
+#
+#  Revisado.: 23/11/2009 - 15:14:35
+#
+#  Por......: Vailton Renato da Silva
+#
+#  Arquivo..: wxWeb.hbc
+#
+#  Flags do compilador Harbour para compila‡Æo com o utilit rio hbmk2
+#
+#-------------------------------------------------------------------------------
+
+incpaths=include
+incpaths=../include
+
+#cflags=-DWEB_DEBUG
+#prgflags=-DWEB_DEBUG -w3 -es2 -m -n -gc3
+
+prgflags=-w3 -es2 -m -n -gc3
