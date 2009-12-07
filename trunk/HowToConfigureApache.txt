@@ -1,0 +1,67 @@
+COMO INSTALAR O APACHE NO WINDOWS
+=================================
+
+Para instalar o EasyPHP que é um pacote de aplicativos que vem com Apache embutido, siga os seguintes 
+passos:
+
+1) Baixe o programa EasyPHP. Você pode baixá-lo à partir destes link:
+   http://sourceforge.net/projects/quickeasyphp/files/EasyPHP/5.3.0/EasyPHP-5.3.0-setup.exe/download
+
+2) - Se você usa "Skype" clique no botão "Avançado" da janela de Opções, e no item "conexão", desmarque 
+     esta opção para evitar conflito com o Apache:
+      [ ] Usar porta 80 e 443 como alternativa para conexões de entrada
+   
+   - Se você usa "Teamviewer" e ele estiver ativo na mémoria, você precisa encerrá-lo toda vez antes de 
+     iniciar o servidor Apache que vem com o EasyPHP e depois você poderá ativá-lo já que o Teamviewer
+     tenta utilizar a mesma porta que o Apache resultando em erro no carregamento do EasyPhp.
+
+3) Instale o EasyPHP.
+
+
+COMO CONFIGURAR O APACHE NO WINDOWS/LINUX
+=========================================
+
+Para configurar o Apache para suportar CGI, efetue os seguintes procedimentos (dependendo da sua
+versão do Windows será necessário efetuar os procedimentos com privilégio de adminitrador):
+
+1) Após a instalação
+
+   - Clique no ícone na barra de tarefas do EasyPHP com o botão direito do mouse e vá nas opções: 
+     Configuração / Apache
+
+     - Localize aproximadamente lá pela linha nº 226 o seguinte conteúdo:
+
+       Options Indexes FollowSymLinks
+
+       altere esta linha para ficar assim:
+
+       Options Indexes FollowSymLinks ExecCGI
+
+     - Após isto, localize no mesmo arquivo a que contém o seguinte texto "#AddHandler cgi-script .cgi"
+      (deve estar lá pela linha nº 444 mais ou menos)
+
+       Assim que localizar adicione estas 2 linhas logo abaixo à esta
+
+       AddHandler cgi-script .exe
+       AddHandler cgi-script .EXE
+
+   - Pronto, salve o arquivo. 
+
+   - Reinicie o Apache para as configurações entrem em vigor. 
+     Obs:  Se estiver utilizando o EasyPHP, encerre-o e reinicie ele novamente. 
+          (Após reiniciar o EasyPHP, passe o mouse emcima do incone do EasyPHP que está na barra de 
+           tarefas e veja se ele está assim: "EasyPHP (Iniciado)", caso não esteja assim, clique 
+           com o botão direito do mouse e clique na opção "Reiniciar" e repita esta disca para 
+           verificar e ele está no status "Iniciado")
+
+
+INSTALANDO OS EXEMPLOS DA WXWEB NO EASYPHP EM WINDOWS
+=====================================================
+
+   - Localize a pasta onde você instalou o EasyPHP e confirme se há dentro dela uma pasta chamada WWW.
+
+   - Após efetuar o download da wxWeb, descompacte os arquivos de exemplo da mesma (só a pasta SAMPLES) 
+     e copie-os para dentro da pasta WWW que está dentro da pasta de instalação do EasyPHP.
+
+   - Agora acesse no seu navegador este endereço para poder executar os exemplos:
+     http://localhost/demos

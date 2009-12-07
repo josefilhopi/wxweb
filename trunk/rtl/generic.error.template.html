@@ -1,0 +1,77 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>%error_message%</title>
+    <head>
+        <title>%error_message%</title>
+        <style>
+        	body {font-family:"Verdana";font-weight:normal;font-size: 8pt;color:black;} 
+        	p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+        	b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+        	H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+        	H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+        	pre {font-family:"Lucida Console";font-size: 8pt}
+        	.marker {font-weight: bold; color: black;text-decoration: none;}
+        	.version {color: gray;}
+        	.error {margin-bottom: 10px;}
+        	.expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:hand; }
+        .style2 {font-family: "Courier New", Courier, monospace; font-size: 9pt; }
+        </style>
+    </head>
+</head>
+
+<body>
+<span>
+<h1>Erro de Servidor no Aplicativo '%script%'.</h1>
+<hr width="100%" size="1" color="silver" />
+<h2> <i>%error_message%.</i> </h2>
+</span> <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif "> <b> Descri&ccedil;&atilde;o: </b>Ocorreu uma exce&ccedil;&atilde;o n&atilde;o tratada durante a execu&ccedil;&atilde;o da atual solicita&ccedil;&atilde;o da Web. Examine o rastreamento de pilha para obter mais informa&ccedil;&otilde;es sobre o erro e onde foi originado no c&oacute;digo. <br />
+<br />
+<b>Arquivo de Origem: </b> %src_file% <b> &nbsp;&nbsp; Linha: </b> %src_line% <br />
+<b>Origem do Erro:</b> <br />
+<br />
+#SOURCE_BEGIN
+<table width="100%" bgcolor="#ffffcc">
+   <tr>     </tr>
+</table>
+</font>
+<table width="100%" bgcolor="#ffffcc">
+  <tr>
+    <td><pre class="style2"><code>%lines%</code></pre></td>
+  </tr>
+</table>
+<br />
+#SOURCE_END
+<b>
+<font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">Rastreamento de Pilha:</font></b> <br />&nbsp;
+<br />
+<table width="100%" bgcolor="#C6E2FF">
+   <tr>
+      <td><pre><code><font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+%call_stack%
+</font></code></pre>
+      </td>
+   </tr>
+</table>
+<font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif "><br />
+<b>Vari&aacute;veis de Ambiente:</b> <br />
+<br />
+<table width="100%" bgcolor="#FFF2EC">
+   <tr>
+      <td><pre><code><font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">%server_vars%</font></code></pre></td>
+   </tr>
+</table>
+</font><font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif "><br />
+<b>Informa&ccedil;&otilde;es do cliente:</b> <br />
+<br />
+<table width="100%" bgcolor="#FFEBD7">
+   <tr>
+      <td><pre><code><font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">%client_info%</font></code></pre></td>
+   </tr>
+</table>
+</font><font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif "><br />
+<hr width="100%" size="1" color="silver" />
+<b>Informa&ccedil;&otilde;es sobre a Vers&atilde;o:</b>&nbsp;%server%, Vers&atilde;o do Framework instalado: v</font><font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">%version%</font>
+</body>
+</html>

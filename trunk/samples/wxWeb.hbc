@@ -1,0 +1,21 @@
+#-------------------------------------------------------------------------------
+#
+#  Projeto WxWeb
+#
+#  Inicio...: Maio / 2006
+#
+#  Revisado.: 24/11/2009 - 10:43:25
+#
+#  Por......: Vailton Renato da Silva
+#
+#  Arquivo..: wxWeb.hbc
+#
+#  Flags do compilador Harbour para compila‡Æo com o utilit rio hbmk2
+#
+#-------------------------------------------------------------------------------
+
+gt=gtcgi
+incpaths=../include
+libpaths=../../lib
+libs=wxweb
+#prgflags=-p

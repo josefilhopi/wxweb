@@ -1,0 +1,89 @@
+a:link    {	text-decoration: none; color: #000; }
+a:visited {	text-decoration: none; color: #000; }
+a:hover   { text-decoration: none; }
+a:active  { text-decoration: none; }
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.topic_tree {
+	font-size: 16px;
+	padding-left: 12px;
+}
+.topic_item {
+	font-size: 12px;
+	padding-left: 12px;
+}
+h3 {
+	font-size: 16px;
+}
+.syntax_name {
+	font-size: 32px;
+	font-style: normal;
+	font-weight: bold;
+}
+.syntax_text {
+	border: 1px solid #999;
+	background-color: #E4E4E4;
+	margin-right: 12px;
+	margin-left: 32px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.code_text {
+	border: 1px solid #999;
+	background-color: #FFFFDF;
+	margin-right: 12px;
+	margin-left: 32px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.info_text {
+	border: 1px solid #999;
+	background-color: #FC9;
+	margin-right: 12px;
+	margin-left: 32px;
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.mg_tab {
+	margin-left:  12px; 
+	margin-right: 12px;
+}
+.mg_text {
+	margin-left:  32px;
+	margin-right: 12px;
+}
+.arg_text {
+	margin-left:  32px;
+	margin-right: 12px;
+}
+.info_text_mono {
+	font-family: "Courier New", Courier, monospace;
+}
+.info_seealso {
+	font-family: "Courier New", Courier, monospace;
+}
+.info_seealso_bad{
+	color: #666;
+	font-family: "Courier New", Courier, monospace;
+}

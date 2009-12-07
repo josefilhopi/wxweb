@@ -1,0 +1,94 @@
+<?
+   msg := ''
+   
+   USE user.dbf NEW SHARED ALIAS users
+   
+   /*
+    * Se ele clicou no botao OK temos que validar o usuario informado.
+    *
+    * Nos temos como saber se ele clicou ou nao no botao atraves de uma
+    * dica muito simples: caso ele tenha clicado havera um campo em 
+    * wxGetField() com o mesmo nome do controle INPUT TYPE especificado 
+    * no HTML que compoe a pagina de login!
+    */
+   if .not. Empty( wxGetField('btnOk') )
+      nome := wxGetField( "user" )
+      senha:= wxGetField( "pass" )
+
+      locate all for upper( alltrim( nome )) == upper( alltrim( user ))
+
+      IF !EOF() .AND. ;
+         upper( alltrim( senha) ) == upper( alltrim( pass ) )
+         
+         /* Login ok! Vamos iniciar uma nova secao para ele */
+         session_start()
+         session( 'usuario', field->name )
+         session( 'login_d', date() )
+         session( 'login_h', time() )
+         wxRedirect( "demo.exe" )
+         return
+      else   
+         msg := 'Login incorreto!' 
+      end
+   end
+   
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login Page</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #999999;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+-->
+</style></head>
+
+<body>
+<form id="form1" name="form1" method="post" action="demo.exe?page=login">
+  <table width="293" border="0" align="center" cellpadding="0" cellspacing="2" bgcolor="#000000">
+    <tr>
+      <td bgcolor="#FFFFFF"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="50" colspan="2" bgcolor="#000000"><div align="center"><span class="style1">Informe seu nome e senha<br />
+            para prosseguir:</span></div></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td width="27%">&nbsp;&nbsp;Usuario: </td>
+          <td width="73%"><select name="user" id="user">
+          <?
+            select users
+            go top
+            
+            while !eof()
+                  ? "<option>",alltrim(User),"</option>"
+                  skip
+            end
+          ?></select></td>
+        </tr>
+        <tr>
+          <td>&nbsp;&nbsp;Senha: </td>
+          <td><input name="pass" type="password" id="pass" size="10" maxlength="10" /></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><input type="submit" name="btnOk" id="btnOk" value="Login!" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><? ? msg ?>&nbsp;</td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,137 @@
+
+<title>wxWeb Reference Guide</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="code.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+      <td background="Top.jpg" height="43px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="90%" class="topic_tree"><a href="intro.html">wxWeb v1.9.7 <i>for Harbour</i></a></td>
+            <td width="10%" align="right"><a href="http://code.google.com/p/wxweb/" target="_blank"><img src="logo_opensource.png" width="50" height="50" border="0"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="33%" align="left" valign="middle"><a href="function.wxgetconfig.html"><img border="0" src="back.png" alt="WXGETCONFIG()" width="24" height="24">&nbsp;</a>&nbsp;</td>
+            <td width="33%">&nbsp;</td>
+            <td width="33%" align="right">&nbsp;&nbsp;<a href="function.wxgetcookiecount.html"><img border="0" src="forward.png" alt="WXGETCOOKIECOUNT()" width="24" height="24"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><div class="mg_tab"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><span class="syntax_name">WXGETCOOKIE()</span></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Retorna o valor de um cookie recebido na conex&atilde;o passada como argumento.</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+            <td><h3>Sintaxe:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="syntax_text">wxGetCookie( [&lt;pConn&gt; ,] &lt;cCookieName | nCookiePos&gt; ) -&gt; cValue </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+
+         <tr>
+            <td><h3>Argumentos:</h3></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;pConn&gt;</i></b><br><div class="mg_text">   O pointer da conex&atilde;o &agrave; ser utilizada para consulta. Se omitido a conex&atilde;o ativa baseada na thread atual ser&aacute; utilizada. <br>&nbsp;<div></div></td>
+         </tr>
+
+         <tr>
+            <td><div class="mg_text"><b><i>&lt;cCookieName|nCookiePos&gt;</i></b><br><div class="mg_text">  Se este argumento for um valor caracter, dever&aacute; conter nome do cookie cujo valor deseja-se resgatar. Se este argumento for um valor num&eacute;rico, a wxWeb retornar&aacute; o valor do cookie segundo a ordem em que ele foi recebido e processado pela biblioteca. <br>&nbsp;<div></div></td>
+         </tr>
+
+
+
+         <tr>
+            <td><h3>Descri&ccedil;&atilde;o:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Retorna o valor de um cookie recebido na conex&atilde;o passada como argumento. Dependendo dos caracteres ASCII armazenados em seu cookie, poder&aacute; ser necess&aacute;rio convert&ecirc;-los com o uso da fun&ccedil;&atilde;o wxUrlDecode() antes de utiliz&aacute;-los. </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr><tr>
+            <td><h3>Info:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="info_text">
+               <table width="100%" border="0" cellspacing="1" cellpadding="1">
+
+                  <tr>
+                     <td><b> Source: </b><span class="info_text_mono">W:\rtl\Kernel\wxConnManager.c</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> Revisado em: </b><span class="info_text_mono">9/12/2006 as 13:07:10</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> See also: </b><a href="function.wxgetcookiename.html" class="info_seealso">WXGETCOOKIENAME()</a>, <a href="function.wxgetcookiecount.html" class="info_seealso">WXGETCOOKIECOUNT()</a>, <a href="function.wxcookieexists.html" class="info_seealso">WXCOOKIEEXISTS()</a>, <a href="function.setcookie.html" class="info_seealso">SetCookie()</a>, <a href="function.deletecookie.html" class="info_seealso">DeleteCookie()</a></td>
+                  </tr>
+
+               </table>
+            </div></td>
+         </tr>
+
+
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><h3>Exemplo :</h3></td>
+         </tr>
+         <tr>
+            <td><div class="code_text"><pre><code> <span class="wx-constant">#include</span> <span class="wx-string">"wxweb.ch"</span>  
+ 
+    name := <span class="wx-string">"myCookie"</span>  
+ 
+ <span class="wx-comment">// Atualizamos o cookie se ele existir. Caso o cookie n&atilde;o exista esta fun&ccedil;&atilde;o ir&aacute;  </span>
+ <span class="wx-comment">// cri&aacute;-lo e ele estar&aacute; dispon&iacute;vel na pr&oacute;xima vez que o usuario executar este  </span>
+ <span class="wx-comment">// aplicativo novamente.  </span>
+    SetCookie( name, time(), <span class="wx-number">360</span> )  
+ 
+    <span class="wx-reservedword">IF</span> wxCookieExists( name )  
+       <span class="wx-function">?</span> <span class="wx-string">"O cookie "</span> + name + <span class="wx-string">" existe!"</span>, br()  
+       <span class="wx-function">?</span> <span class="wx-string">"Sua ultima visita a esta pagina foi em"</span>, ;  
+             wxUrlDecode( wxGetCookie( name ) )  
+    <span class="wx-reservedword">ELSE</span>  
+       <span class="wx-function">?</span> <span class="wx-string">"O cookie "</span> + name + <span class="wx-string">" NAO existe!"</span>  
+    <span class="wx-reservedword">End</span>  
+ 
+    <span class="wx-function">?</span> br()  
+    <span class="wx-function">?</span> HREF( <span class="wx-string">'demo.exe'</span>, <span class="wx-string">'Clique aqui para atualizar'</span> )  
+    <span class="wx-function">?</span>  
+</code></pre> 
+</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         </table>
+      </div></td>
+   </tr>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>

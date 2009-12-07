@@ -1,0 +1,61 @@
+<?
+   session_start()
+
+   /*
+    * Se nao houver o nome de um usuario gravado para uma sessao v?lida, pulamos
+    * devemos for?ar o usuario a se logar na pagina antes de prosseguir!
+    */   
+   if !session_exist( "usuario" )
+      wxRedirect( "demo.exe", "page=login" )
+      return
+   end
+   
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Index Page</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #999999;
+}
+.style1 {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+-->
+</style></head>
+
+<body>
+<form id="form1" name="form1" method="post" action="demo.exe">
+  <table width="293" border="0" align="center" cellpadding="0" cellspacing="2" bgcolor="#000000">
+    <tr>
+      <td bgcolor="#FFFFFF"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="50" bgcolor="#000000"><div align="center"><span class="style1">Pagina Secreta:</span></div></td>
+        </tr>
+        <tr>
+          <td><div align="center"><br />
+            Esta e a pagina secreta. Voce so podera visualiza-la apos efetuar o login.<br />
+          &nbsp;<br />
+          <a href="demo.exe?page=list">Clique aqui e visite a segunda pagina.</a><br>
+          <hr>
+          <br>&nbsp;
+          Ola <? ? session( "usuario" ) ?>, voce efetuou login as:<br>
+          <? 
+            ? dtoc(session( "login_d" )) + ' / ' + session( "login_h" )
+          ?>.<br><?
+          
+            ? href( 'demo.exe?page=logoff', "Clique aqui para efetuar logoff" )
+          
+          ?><br>&nbsp;</div>
+          </td>
+          </tr>
+        
+      </table></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

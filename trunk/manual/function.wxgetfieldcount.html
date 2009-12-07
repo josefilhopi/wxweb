@@ -1,0 +1,122 @@
+
+<title>wxWeb Reference Guide</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="code.css" rel="stylesheet" type="text/css" />
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+      <td background="Top.jpg" height="43px"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="90%" class="topic_tree"><a href="intro.html">wxWeb v1.9.7 <i>for Harbour</i></a></td>
+            <td width="10%" align="right"><a href="http://code.google.com/p/wxweb/" target="_blank"><img src="logo_opensource.png" width="50" height="50" border="0"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td width="33%" align="left" valign="middle"><a href="function.wxgetfield.html"><img border="0" src="back.png" alt="WXGETFIELD()" width="24" height="24">&nbsp;</a>&nbsp;</td>
+            <td width="33%">&nbsp;</td>
+            <td width="33%" align="right">&nbsp;&nbsp;<a href="function.wxgetfieldname.html"><img border="0" src="forward.png" alt="WXGETFIELDNAME()" width="24" height="24"></a></td>
+         </tr>
+      </table></td>
+   </tr>
+
+   <tr>
+      <td><div class="mg_tab"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><span class="syntax_name">WXGETFIELDCOUNT()</span></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Retorna a quantidade de campos recebidos via GET/POST/PUT na conex&atilde;o passada como argumento.</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         <tr>
+            <td><h3>Sintaxe:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="syntax_text">wxGetFieldCount( [&lt;pConn&gt;] ) -&gt; nCount </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+
+
+         <tr>
+            <td><h3>Descri&ccedil;&atilde;o:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="mg_text">Retorna a quantidade de campos recebidos via GET/POST/PUT na conex&atilde;o passada como argumento. Se &lt;pConn&gt; for omitido a conex&atilde;o ativa baseada na thread atual ser&aacute; utilizada. </div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr><tr>
+            <td><h3>Info:</h3></td>
+         </tr>
+         <tr>
+            <td><div class="info_text">
+               <table width="100%" border="0" cellspacing="1" cellpadding="1">
+
+                  <tr>
+                     <td><b> Source: </b><span class="info_text_mono">W:\rtl\Kernel\wxConnManager.c</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> Revisado em: </b><span class="info_text_mono">19/12/2006 as 18:03:56</span></td>
+                  </tr>
+
+                  <tr>
+                     <td><b> See also: </b><a href="function.wxgetfield.html" class="info_seealso">WXGETFIELD()</a>, <a href="function.wxgetfieldname.html" class="info_seealso">WXGETFIELDNAME()</a>, <a href="function.wxfieldexists.html" class="info_seealso">WXFIELDEXISTS()</a></td>
+                  </tr>
+
+               </table>
+            </div></td>
+         </tr>
+
+
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+         <tr>
+            <td><h3>Exemplo :</h3></td>
+         </tr>
+         <tr>
+            <td><div class="code_text"><pre><code> <span class="wx-constant">#include</span> <span class="wx-string">"wxweb.ch"</span>  
+ 
+ <span class="wx-reservedword">FUNCTION</span> Main()  
+ 
+    <span class="wx-reservedword">IF</span> wxGetFieldCount()&lt;1  
+       <span class="wx-function">?</span> <span class="wx-string">'&lt;html&gt;&lt;body&gt;'</span>  
+       <span class="wx-function">?</span> <span class="wx-string">'Por favor, &lt;a href="ficha.html"&gt;clique aqui&lt;/a&gt; para preencher a ficha cadastral.'</span>  
+       <span class="wx-function">?</span> <span class="wx-string">'&lt;/body&gt;'</span>  
+       <span class="wx-function">?</span> <span class="wx-string">'&lt;/html&gt;'</span>  
+ 
+       QUIT  
+    <span class="wx-reservedword">End</span>  
+ 
+    <span class="wx-reservedword">for</span> i := <span class="wx-number">1</span> <span class="wx-function">to</span> wxGetFieldCount()  
+        <span class="wx-function">?</span> <span class="wx-string">'&lt;i&gt;'</span>, wxGetFieldName(i), <span class="wx-string">'&lt;/i&gt;&lt;b&gt;'</span>,wxGetField(i)<span class="wx-string">,'&lt;/b&gt;&lt;br&gt;'</span>  
+    <span class="wx-reservedword">end</span>  
+    <span class="wx-function">?</span> <span class="wx-string">'&lt;a href="ficha.html"&gt;Preencher a ficha cadastral.&lt;/a&gt;'</span>  
+    <span class="wx-reservedword">RETURN</span>  
+</code></pre> 
+</div></td>
+         </tr>
+         <tr>
+            <td>&nbsp;</td>
+         </tr>
+
+         </table>
+      </div></td>
+   </tr>
+   <tr>
+      <td>&nbsp;</td>
+   </tr>
+</table>

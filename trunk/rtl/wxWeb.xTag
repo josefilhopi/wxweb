@@ -1,0 +1,586 @@
+<!--
+################################################
+# xDevStudio Project - xdev@kssoftware.com.br  #
+# Created @ 06/12/2009 12:29:35                #
+#                                              #
+### Standard xDev TagList - Layout v1.5 ########
+-->
+<taglist>
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_CONTENT_BUFFER" args=" " scope="PUBLIC" type="ptConstant" line="80">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_CONTENT_LENGTH" args=" " scope="PUBLIC" type="ptConstant" line="79">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_CONTENT_VERSION" args=" " scope="PUBLIC" type="ptConstant" line="81">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_EXPIRES" args=" " scope="PUBLIC" type="ptConstant" line="83">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_DERIVED_FROM" args=" " scope="PUBLIC" type="ptConstant" line="82">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_CONTENT_TYPE" args=" " scope="PUBLIC" type="ptConstant" line="78">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_IF_MODIFIED_SINCE" args=" " scope="PUBLIC" type="ptConstant" line="74">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_HOST" args=" " scope="PUBLIC" type="ptConstant" line="73">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_REFERER" args=" " scope="PUBLIC" type="ptConstant" line="75">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_CONTENT_ENCODING" args=" " scope="PUBLIC" type="ptConstant" line="77">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_USER_AGENT" args=" " scope="PUBLIC" type="ptConstant" line="76">
+   <tag filename="W:\include\wxWeb.ch" name="SERVER_PORT" args=" " scope="PUBLIC" type="ptConstant" line="91">
+   <tag filename="W:\include\wxWeb.ch" name="SERVER_NAME" args=" " scope="PUBLIC" type="ptConstant" line="90">
+   <tag filename="W:\include\wxWeb.ch" name="RESPONSE_CONTENT" args=" " scope="PUBLIC" type="ptConstant" line="92">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_CONNECTION" args=" " scope="PUBLIC" type="ptConstant" line="94">
+   <tag filename="W:\include\wxWeb.ch" name="REQUEST_URI" args=" " scope="PUBLIC" type="ptConstant" line="93">
+   <tag filename="W:\include\wxWeb.ch" name="SERVER_SOFTWARE" args=" " scope="PUBLIC" type="ptConstant" line="89">
+   <tag filename="W:\include\wxWeb.ch" name="REMOTE_ADDR" args=" " scope="PUBLIC" type="ptConstant" line="85">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_TITLE" args=" " scope="PUBLIC" type="ptConstant" line="84">
+   <tag filename="W:\include\wxWeb.ch" name="REMOTE_PORT" args=" " scope="PUBLIC" type="ptConstant" line="86">
+   <tag filename="W:\include\wxWeb.ch" name="SCRIPT_NAME" args=" " scope="PUBLIC" type="ptConstant" line="88">
+   <tag filename="W:\include\wxWeb.ch" name="REMOTE_HOST" args=" " scope="PUBLIC" type="ptConstant" line="87">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_FROM" args=" " scope="PUBLIC" type="ptConstant" line="72">
+   <tag filename="W:\include\wxWeb.ch" name="WEB_CGI_MODE" args=" " scope="PUBLIC" type="ptConstant" line="52">
+   <tag filename="W:\include\wxWeb.ch" name="Server" args=" " scope="PUBLIC" type="ptPseudoFUNC" line="49">
+   <tag filename="W:\include\wxWeb.ch" name="WEB_ISAPI_MODE" args=" " scope="PUBLIC" type="ptConstant" line="53">
+   <tag filename="W:\include\wxWeb.ch" name="WX_FAILURE" args=" " scope="PUBLIC" type="ptConstant" line="57">
+   <tag filename="W:\include\wxWeb.ch" name="WEB_STAND_ALONE" args=" " scope="PUBLIC" type="ptConstant" line="54">
+   <tag filename="W:\include\wxWeb.ch" name="DevOut" args=" " scope="PUBLIC" type="ptPseudoFUNC" line="40">
+   <tag filename="W:\include\wxWeb.ch" name="FALSE" args=" " scope="PUBLIC" type="ptConstant" line="24">
+   <tag filename="W:\include\wxWeb.ch" name="TRUE" args=" " scope="PUBLIC" type="ptConstant" line="23">
+   <tag filename="W:\include\wxWeb.ch" name="Qout" args=" " scope="PUBLIC" type="ptPseudoFUNC" line="37">
+   <tag filename="W:\include\wxWeb.ch" name="DispOut" args=" " scope="PUBLIC" type="ptPseudoFUNC" line="39">
+   <tag filename="W:\include\wxWeb.ch" name="QQout" args=" " scope="PUBLIC" type="ptPseudoFUNC" line="38">
+   <tag filename="W:\include\wxWeb.ch" name="PATH_TRANSLATED" args=" " scope="PUBLIC" type="ptConstant" line="68">
+   <tag filename="W:\include\wxWeb.ch" name="PATH_INFO" args=" " scope="PUBLIC" type="ptConstant" line="67">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_CACHE_CONTROL" args=" " scope="PUBLIC" type="ptConstant" line="69">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_ACCEPT" args=" " scope="PUBLIC" type="ptConstant" line="71">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_DATE" args=" " scope="PUBLIC" type="ptConstant" line="70">
+   <tag filename="W:\include\wxWeb.ch" name="QUERY_STRING" args=" " scope="PUBLIC" type="ptConstant" line="66">
+   <tag filename="W:\include\wxWeb.ch" name="CRLF" args=" " scope="PUBLIC" type="ptConstant" line="60">
+   <tag filename="W:\include\wxWeb.ch" name="WX_SUCCESS" args=" " scope="PUBLIC" type="ptConstant" line="58">
+   <tag filename="W:\include\wxWeb.ch" name="REQUEST_METHOD" args=" " scope="PUBLIC" type="ptConstant" line="63">
+   <tag filename="W:\include\wxWeb.ch" name="SERVER_URL" args=" " scope="PUBLIC" type="ptConstant" line="65">
+   <tag filename="W:\include\wxWeb.ch" name="SERVER_PROTOCOL" args=" " scope="PUBLIC" type="ptConstant" line="64">
+   <tag filename="W:\include\wxWeb.ch" name="WX_CACHE_FULL" args=" " scope="PUBLIC" type="ptConstant" line="106">
+   <tag filename="W:\include\wxWeb.ch" name="WX_SCRIPT_NONE" args=" " scope="PUBLIC" type="ptConstant" line="109">
+   <tag filename="W:\include\wxWeb.ch" name="WX_SCRIPT_WXS" args=" " scope="PUBLIC" type="ptConstant" line="110">
+   <tag filename="W:\include\wxWeb.ch" name="MAX_SERVER_VARS" args=" " scope="PUBLIC" type="ptConstant" line="101">
+   <tag filename="W:\include\wxWeb.ch" name="WX_CACHE_NONE" args=" " scope="PUBLIC" type="ptConstant" line="104">
+   <tag filename="W:\include\wxWeb.ch" name="WX_CACHE_DEFAULT" args=" " scope="PUBLIC" type="ptConstant" line="105">
+   <tag filename="W:\include\wxWeb.ch" name="WX_SCRIPT_HTML" args=" " scope="PUBLIC" type="ptConstant" line="111">
+   <tag filename="W:\include\wxWeb.ch" name="MAX_SESSION_LEN" args=" " scope="PUBLIC" type="ptConstant" line="128">
+   <tag filename="W:\include\wxWeb.ch" name="DEF_SESSION_NAME" args=" " scope="PUBLIC" type="ptConstant" line="130">
+   <tag filename="W:\include\wxWeb.ch" name="DEF_SESSION_LIFETIME" args=" " scope="PUBLIC" type="ptConstant" line="135">
+   <tag filename="W:\include\wxWeb.ch" name="WXS_SIGNATURE" args=" " scope="PUBLIC" type="ptConstant" line="112">
+   <tag filename="W:\include\wxWeb.ch" name="URL_MAX_LEN" args=" " scope="PUBLIC" type="ptConstant" line="120">
+   <tag filename="W:\include\wxWeb.ch" name="MAX_FIELD_LEN" args=" " scope="PUBLIC" type="ptConstant" line="124">
+   <tag filename="W:\include\wxWeb.ch" name="AUTH_PASSWORD" args=" " scope="PUBLIC" type="ptConstant" line="97">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_AUTHORIZATION" args=" " scope="PUBLIC" type="ptConstant" line="96">
+   <tag filename="W:\include\wxWeb.ch" name="HTTP_COOKIE" args=" " scope="PUBLIC" type="ptConstant" line="95">
+   <tag filename="W:\include\wxWeb.ch" name="SESSION_PATH" args=" " scope="PUBLIC" type="ptConstant" line="100">
+   <tag filename="W:\include\wxWeb.ch" name="AUTH_USER" args=" " scope="PUBLIC" type="ptConstant" line="99">
+   <tag filename="W:\include\wxWeb.ch" name="AUTH_TYPE" args=" " scope="PUBLIC" type="ptConstant" line="98">
+   <tag filename="W:\RTL\include\wxweb.h" name="WX_RES" args=" " scope="PUBLIC" type="ptConstant" line="16">
+   <tag filename="W:\RTL\include\wxweb.h" name="CALC_LEN" args=" " scope="PUBLIC" type="ptConstant" line="18">
+   <tag filename="W:\Compiler\wxMain.prg" name="ShowHelp" args=" " scope="PUBLIC" type="ptFunction" line="260">
+   <tag filename="W:\Compiler\wxMain.prg" name="Bye" args="<nError> " scope="PUBLIC" type="ptFunction" line="282">
+   <tag filename="W:\Compiler\wxMain.prg" name="Error" args="<nCode>, <Args> " scope="PUBLIC" type="ptFunction" line="288">
+   <tag filename="W:\Compiler\wxMain.prg" name="ShowHeader" args=" " scope="PUBLIC" type="ptFunction" line="254">
+   <tag filename="W:\Compiler\wxMain.prg" name="IS_HTML_MODE" args=" " scope="PUBLIC" type="ptConstant" line="27">
+   <tag filename="W:\Compiler\wxMain.prg" name="IS_BREAK_MODE" args=" " scope="PUBLIC" type="ptConstant" line="28">
+   <tag filename="W:\Compiler\wxMain.prg" name="wxMain" args="<.><.><.> " scope="PUBLIC" type="ptFunction" line="40">
+   <tag filename="W:\Compiler\wxMain.prg" name="Ntrim" args="<x> " scope="PUBLIC" type="ptFunction" line="553">
+   <tag filename="W:\Compiler\wxMain.prg" name="BuildPRGcode" args="<aHtml> " scope="PUBLIC" type="ptFunction" line="440">
+   <tag filename="W:\Compiler\wxMain.prg" name="ParseFile" args="<filename> " scope="PUBLIC" type="ptFunction" line="339">
+   <tag filename="W:\Compiler\wxMain.prg" name="AdjustFileHeader" args=" " scope="PUBLIC" type="ptFunction" line="560">
+   <tag filename="W:\Compiler\wxMain.prg" name="wxExeName" args=" " scope="PUBLIC" type="ptFunction" line="331">
+   <tag filename="W:\Compiler\wxMain.prg" name="wxExePath" args=" " scope="PUBLIC" type="ptFunction" line="334">
+   <tag filename="W:\Compiler\wxMain.prg" name="HB_NOMOUSE" args=" " scope="PUBLIC" type="ptFunction" line="575">
+   <tag filename="W:\Compiler\wxMain.prg" name="HEADER_VERSION" args=" " scope="PUBLIC" type="ptConstant" line="18">
+   <tag filename="W:\Compiler\wxMain.prg" name="DEFAULT_EXT" args=" " scope="PUBLIC" type="ptConstant" line="19">
+   <tag filename="W:\Compiler\wxMain.prg" name="CRLF" args=" " scope="PUBLIC" type="ptConstant" line="11">
+   <tag filename="W:\Compiler\wxMain.prg" name="CRLFCOMA" args=" " scope="PUBLIC" type="ptConstant" line="12">
+   <tag filename="W:\Compiler\wxMain.prg" name="HTML_MODE" args=" " scope="PUBLIC" type="ptConstant" line="21">
+   <tag filename="W:\Compiler\wxMain.prg" name="PHP_PARSER" args=" " scope="PUBLIC" type="ptConstant" line="24">
+   <tag filename="W:\Compiler\wxMain.prg" name="ASP_PARSER" args=" " scope="PUBLIC" type="ptConstant" line="25">
+   <tag filename="W:\Compiler\wxMain.prg" name="PRG_MODE" args=" " scope="PUBLIC" type="ptConstant" line="22">
+   <tag filename="W:\Compiler\wxMain.prg" name="BREAK_MODE" args=" " scope="PUBLIC" type="ptConstant" line="23">
+   <tag filename="W:\RTL\Kernel\wxTrace.c" name="wxTraceLog" args="<sTraceMsg>, <.> " scope="PUBLIC" type="ptCFunction" line="96">
+   <tag filename="W:\RTL\Kernel\wxTrace.c" name="wxTraceExit" args=" " scope="PUBLIC" type="ptCFunction" line="89">
+   <tag filename="W:\RTL\Kernel\wxTrace.c" name="WXTRACE" args=" " scope="PUBLIC" type="ptFunction" line="147">
+   <tag filename="W:\RTL\Kernel\wxTrace.c" name="wxTraceInit" args=" " scope="PUBLIC" type="ptCFunction" line="65">
+   <tag filename="W:\RTL\Kernel\wxTrace.c" name="LOG_NAME" args=" " scope="PUBLIC" type="ptConstant" line="59">
+   <tag filename="W:\builddoc\builddoc.prg" name="Prg2Html" args="<cSource> " scope="PUBLIC" type="ptFunction" line="841">
+   <tag filename="W:\builddoc\builddoc.prg" name="LoadFile" args="<cFile>, <hHash>, <cColor> " scope="STATIC" type="ptFunction" line="820">
+   <tag filename="W:\builddoc\builddoc.prg" name="isOEM" args="<str> " scope="PUBLIC" type="ptFunction" line="756">
+   <tag filename="W:\builddoc\builddoc.prg" name="ShortDesc" args="<x> " scope="PUBLIC" type="ptFunction" line="728">
+   <tag filename="W:\builddoc\builddoc.prg" name="NormalizePath" args="<cPath> " scope="PUBLIC" type="ptFunction" line="700">
+   <tag filename="W:\builddoc\builddoc.prg" name="wxQQout" args="<.><.><.> " scope="PUBLIC" type="ptFunction" line="691">
+   <tag filename="W:\builddoc\builddoc.prg" name="wxQout" args="<.><.><.> " scope="PUBLIC" type="ptFunction" line="683">
+   <tag filename="W:\builddoc\builddoc.prg" name="WriteHtml" args="<hTopic>, <hPrevious>, <hNext>, <aOutPut> " scope="PUBLIC" type="ptFunction" line="675">
+   <tag filename="W:\builddoc\builddoc.prg" name="H" args="<c>, <lTrim> " scope="PUBLIC" type="ptFunction" line="619">
+   <tag filename="W:\builddoc\builddoc.prg" name="GetUrlLink" args="<t> " scope="PUBLIC" type="ptFunction" line="602">
+   <tag filename="W:\builddoc\builddoc.prg" name="B0E1H6DB2B" args="<x>, <y> " scope="STATIC" type="ptFunction" line="589">
+   <tag filename="W:\builddoc\builddoc.prg" name="FindTopic" args="<cTopicName>, <aOutPut> " scope="PUBLIC" type="ptFunction" line="580">
+   <tag filename="W:\builddoc\builddoc.prg" name="BuildUniqueID" args="<aTopicItem> " scope="PUBLIC" type="ptFunction" line="564">
+   <tag filename="W:\builddoc\builddoc.prg" name="TopicFinish" args="<aOutPut>, <aLines>, <nLine>, <Topic> " scope="STATIC" type="ptFunction" line="523">
+   <tag filename="W:\builddoc\builddoc.prg" name="ExtractFuncName" args="<aLines>, <nLine>, <Topic> " scope="PUBLIC" type="ptFunction" line="487">
+   <tag filename="W:\builddoc\builddoc.prg" name="isIdent" args="<cName> " scope="PUBLIC" type="ptFunction" line="465">
+   <tag filename="W:\builddoc\builddoc.prg" name="isCmd" args="<cStr>, <cCmd> " scope="PUBLIC" type="ptFunction" line="449">
+   <tag filename="W:\builddoc\builddoc.prg" name="wxExePath" args=" " scope="PUBLIC" type="ptFunction" line="441">
+   <tag filename="W:\builddoc\builddoc.prg" name="wxExeName" args=" " scope="PUBLIC" type="ptFunction" line="438">
+   <tag filename="W:\builddoc\builddoc.prg" name="wxVersion" args=" " scope="PUBLIC" type="ptFunction" line="435">
+   <tag filename="W:\builddoc\builddoc.prg" name="ProcessFile" args="<cPath>, <cFileName>, <lPrgFormat>, <aOutput> " scope="PUBLIC" type="ptFunction" line="125">
+   <tag filename="W:\builddoc\builddoc.prg" name="ProcessDir" args="<cDir>, <aOutput> " scope="PUBLIC" type="ptProcedure" line="83">
+   <tag filename="W:\builddoc\builddoc.prg" name="Main" args=" " scope="PUBLIC" type="ptFunction" line="18">
+   <tag filename="W:\builddoc\builddoc.prg" name="PRG_PREFIX" args=" " scope="STATIC" type="ptConstant" line="12">
+   <tag filename="W:\builddoc\builddoc.prg" name="ARG_PREFIX" args=" " scope="STATIC" type="ptConstant" line="11">
+   <tag filename="W:\builddoc\builddoc.prg" name="FN_PREFIX" args=" " scope="STATIC" type="ptConstant" line="9">
+   <tag filename="W:\builddoc\builddoc.prg" name="PATH_DEST" args=" " scope="STATIC" type="ptConstant" line="8">
+   <tag filename="W:\builddoc\builddoc.prg" name="PATH_SEPARATOR" args=" " scope="STATIC" type="ptConstant" line="7">
+   <tag filename="W:\RTL\include\wxTrace.h" name="HB_TRACEEX" args="<l>, <x> " scope="PUBLIC" type="ptPseudoFUNC" line="12">
+   <tag filename="W:\RTL\include\wxTrace.h" name="HB_TRACE" args=" " scope="PUBLIC" type="ptConstant" line="11">
+   <tag filename="W:\RTL\include\wxTrace.h" name="wxTraceInit" args=" " scope="PUBLIC" type="ptPseudoFUNC" line="31">
+   <tag filename="W:\RTL\include\wxTrace.h" name="wxTraceExit" args=" " scope="PUBLIC" type="ptPseudoFUNC" line="32">
+   <tag filename="W:\RTL\include\wxTrace.h" name="wxTraceLog" args="<l>, <x> " scope="PUBLIC" type="ptPseudoFUNC" line="30">
+   <tag filename="W:\RTL\include\wxTrace.h" name="HB_TRACE" args="<l>, <x> " scope="PUBLIC" type="ptPseudoFUNC" line="27">
+   <tag filename="W:\RTL\include\wxTrace.h" name="HB_TRACEEX" args="<l>, <x> " scope="PUBLIC" type="ptPseudoFUNC" line="28">
+   <tag filename="W:\RTL\Kernel\wxMemvar.c" name="wxMemvarGetNL" args="<szVarName> " scope="PUBLIC" type="ptCFunction" line="79">
+   <tag filename="W:\RTL\Kernel\wxMemvar.c" name="wxMemvarGetCPtr" args="<szVarName>, <pulLen> " scope="PUBLIC" type="ptCFunction" line="35">
+   <tag filename="W:\RTL\Kernel\wxMemvar.c" name="wxMemvarGetNI" args="<szVarName> " scope="PUBLIC" type="ptCFunction" line="122">
+   <tag filename="W:\RTL\Kernel\wxMemvar.c" name="wxMemvarPut" args="<szVarName>, <pValue> " scope="PUBLIC" type="ptCFunction" line="166">
+   <tag filename="W:\RTL\Kernel\wxMemvar.c" name="WXTHREADID" args=" " scope="PUBLIC" type="ptFunction" line="222">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="NONE" args=" " scope="PUBLIC" type="ptConstant" line="41">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="max" args="<a>, <b> " scope="PUBLIC" type="ptPseudoFUNC" line="33">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="wx_printf" args="<Length> " scope="PUBLIC" type="ptCFunction" line="335">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="PRINTF" args=" " scope="PUBLIC" type="ptFunction" line="472">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="printf_add_str" args="<pInfo>, <text>, <request_len> " scope="PUBLIC" type="ptCFunction" line="72">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="printf_add_conv" args="<pInfo>, <pItem> " scope="PUBLIC" type="ptCFunction" line="95">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="PRINTF" args=" " scope="PUBLIC" type="ptFunction" line="492">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="FAILURE" args=" " scope="PUBLIC" type="ptConstant" line="44">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="OK" args=" " scope="PUBLIC" type="ptConstant" line="42">
+   <tag filename="W:\RTL\Kernel\wxPrintf.c" name="SPRINTF" args=" " scope="PUBLIC" type="ptFunction" line="524">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrUpper" args="<src>, <len> " scope="PUBLIC" type="ptCFunction" line="196">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrLower" args="<src>, <len> " scope="PUBLIC" type="ptCFunction" line="211">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="SameText" args="<s1>, <s2> " scope="PUBLIC" type="ptCFunction" line="338">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="WXLOCATETAG" args=" " scope="PUBLIC" type="ptFunction" line="362">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="wxMemFind" args="<buffer>, <buffer_len>, <findstr>, <findstr_len> " scope="PUBLIC" type="ptCFunction" line="435">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrReadFile" args="<s>, <BytesRead> " scope="PUBLIC" type="ptCFunction" line="302">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrMove" args="<dst>, <src>, <.> " scope="PUBLIC" type="ptCFunction" line="222">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrAdd" args="<dst>, <len>, <src>, <.> " scope="PUBLIC" type="ptCFunction" line="238">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrAddCount" args="<dst>, <len>, <src>, <BufferSize> " scope="PUBLIC" type="ptCFunction" line="265">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrNew" args="<len> " scope="PUBLIC" type="ptCFunction" line="85">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrNewBuff" args="<len>, <Buff> " scope="PUBLIC" type="ptCFunction" line="103">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrDup" args="<z> " scope="PUBLIC" type="ptCFunction" line="42">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrNDup" args="<z>, <n> " scope="PUBLIC" type="ptCFunction" line="65">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrRealloc" args="<z>, <len> " scope="PUBLIC" type="ptCFunction" line="123">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrUpperNew" args="<src>, <len> " scope="PUBLIC" type="ptCFunction" line="150">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="xStrUpperCopy" args="<dst>, <src>, <len> " scope="PUBLIC" type="ptCFunction" line="176">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="wxAlloc" args="<len> " scope="PUBLIC" type="ptCFunction" line="132">
+   <tag filename="W:\RTL\Kernel\wxMemory.c" name="wxRelease" args="<z> " scope="PUBLIC" type="ptCFunction" line="140">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_DESTROY" args=" " scope="PUBLIC" type="ptFunction" line="1484">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_Destroy" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="1453">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_SET_COOKIE_PARAMS" args=" " scope="PUBLIC" type="ptFunction" line="1426">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_START" args=" " scope="PUBLIC" type="ptFunction" line="1401">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_Start" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="1274">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_Load" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="1236">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_ParseRawData" args="<pClientConn>, <Buffer>, <Length> " scope="PUBLIC" type="ptCFunction" line="1168">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_STARTED" args=" " scope="PUBLIC" type="ptFunction" line="1141">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_WRITE" args=" " scope="PUBLIC" type="ptFunction" line="1102">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_Write" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="1028">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_WriteRawData" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="903">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_WriteCookie" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="840">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_PrepareName" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="789">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_SAVEPATH" args=" " scope="PUBLIC" type="ptFunction" line="739">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_NAME" args=" " scope="PUBLIC" type="ptFunction" line="679">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_ID" args=" " scope="PUBLIC" type="ptFunction" line="598">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_GETNAME" args=" " scope="PUBLIC" type="ptFunction" line="546">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_EXIST" args=" " scope="PUBLIC" type="ptFunction" line="503">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_Find" args="<pConn>, <KeyName> " scope="PUBLIC" type="ptCFunction" line="469">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_COUNT" args=" " scope="PUBLIC" type="ptFunction" line="440">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION_CLEAR" args=" " scope="PUBLIC" type="ptFunction" line="411">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_Clear" args="<pConn>, <Parcial> " scope="PUBLIC" type="ptCFunction" line="360">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="SESSION" args=" " scope="PUBLIC" type="ptFunction" line="149">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_Ensure" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="118">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="wxSession_CreateNew" args="<pClientConn> " scope="PUBLIC" type="ptCFunction" line="55">
+   <tag filename="W:\RTL\Kernel\wxSession.c" name="FileExists" args="<FileName> " scope="PUBLIC" type="ptPseudoFUNC" line="43">
+   <tag filename="W:\RTL\include\wxMemory.h" name="wxDispose" args=" " scope="PUBLIC" type="ptConstant" line="42">
+   <tag filename="W:\RTL\Kernel\misc\wxMD5.c" name="hbcc_md5" args="<ucData>, <ulLen>, <ucDigest> " scope="PUBLIC" type="ptCFunction" line="236">
+   <tag filename="W:\RTL\Kernel\misc\wxMD5.c" name="hb_md5go" args="<md5> " scope="PUBLIC" type="ptCFunction" line="152">
+   <tag filename="W:\RTL\Kernel\misc\wxMD5.c" name="MAX_FBUF" args=" " scope="PUBLIC" type="ptConstant" line="122">
+   <tag filename="W:\RTL\Kernel\misc\wxMD5.c" name="MD5_FILE" args=" " scope="PUBLIC" type="ptFunction" line="335">
+   <tag filename="W:\RTL\Kernel\misc\wxMD5.c" name="MD5" args=" " scope="PUBLIC" type="ptFunction" line="313">
+   <tag filename="W:\RTL\Kernel\misc\wxMD5.c" name="MD5" args="<InputText>, <Size>, <digest> " scope="PUBLIC" type="ptCFunction" line="290">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="wxUrlDecode" args="<Text>, <Length>, <out_size> " scope="PUBLIC" type="ptCFunction" line="59">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="wxUrlEncode" args="<s>, <len>, <out_size> " scope="PUBLIC" type="ptCFunction" line="108">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="isValidDigit" args="<c> " scope="PUBLIC" type="ptCFunction" line="23">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="Hex2Int" args="<s> " scope="PUBLIC" type="ptCFunction" line="37">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="__ISVALIDCOOKIENAME" args=" " scope="PUBLIC" type="ptFunction" line="188">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="__ISVALIDCOOKIEVALUE" args=" " scope="PUBLIC" type="ptFunction" line="209">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="WXURLDECODE" args=" " scope="PUBLIC" type="ptFunction" line="152">
+   <tag filename="W:\RTL\Kernel\misc\wxURL.c" name="WXURLENCODE" args=" " scope="PUBLIC" type="ptFunction" line="164">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXGETAPPMODE" args=" " scope="PUBLIC" type="ptFunction" line="68">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXSETAPPMODE" args=" " scope="PUBLIC" type="ptFunction" line="77">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXWEBVERSION" args=" " scope="PUBLIC" type="ptFunction" line="35">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXWEBVERSIONSTR" args=" " scope="PUBLIC" type="ptFunction" line="46">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXWEB" args=" " scope="PUBLIC" type="ptFunction" line="93">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXBUILDDATE" args=" " scope="PUBLIC" type="ptFunction" line="233">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXBUILDTIME" args=" " scope="PUBLIC" type="ptFunction" line="244">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXEXENAME" args=" " scope="PUBLIC" type="ptFunction" line="110">
+   <tag filename="W:\RTL\Kernel\wxWebKernel.c" name="WXEXEPATH" args=" " scope="PUBLIC" type="ptFunction" line="170">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="Int2Str" args="<lValue>, <OutPut>, <OutPutLength> " scope="PUBLIC" type="ptCFunction" line="52">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="WXSERIALIZE" args=" " scope="PUBLIC" type="ptFunction" line="522">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="ItemSize" args="<pItem> " scope="PUBLIC" type="ptCFunction" line="86">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="Str2Int" args="<InPut>, <Length> " scope="PUBLIC" type="ptCFunction" line="72">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="WXITEMDESERIALIZE" args=" " scope="PUBLIC" type="ptFunction" line="553">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="Item2Str" args="<Item>, <Buffer>, <Length> " scope="PUBLIC" type="ptCFunction" line="275">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="wxItemSerialize" args="<Item>, <Length>, <hHandle> " scope="PUBLIC" type="ptCFunction" line="472">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="wxItemDeserialize" args="<RawData>, <Item> " scope="PUBLIC" type="ptCFunction" line="581">
+   <tag filename="W:\RTL\Kernel\wxSerialize.c" name="wxItemType" args="<Item> " scope="PUBLIC" type="ptCFunction" line="233">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="UCT2DSTDIFF" args=" " scope="PUBLIC" type="ptFunction" line="229">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="TimeStr2Sec" args="<pszTime> " scope="PUBLIC" type="ptCFunction" line="83">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="wxGetUCTTimeAsGMT" args="<pTime> " scope="PUBLIC" type="ptCFunction" line="45">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="wxGetUCTTime" args="<pTime> " scope="PUBLIC" type="ptCFunction" line="24">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="wxAddSeconds" args="<pTime>, <Seconds> " scope="PUBLIC" type="ptCFunction" line="108">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="UTCTIME" args=" " scope="PUBLIC" type="ptFunction" line="206">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="UTCDATE" args=" " scope="PUBLIC" type="ptFunction" line="194">
+   <tag filename="W:\RTL\Kernel\misc\wxTime.c" name="wxAddDays" args="<pTime>, <Days> " scope="PUBLIC" type="ptCFunction" line="160">
+   <tag filename="W:\RTL\Kernel\wxCookies.prg" name="GTM_INTERVAL" args=" " scope="PUBLIC" type="ptConstant" line="25">
+   <tag filename="W:\RTL\Kernel\wxCookies.prg" name="SetCookie" args="<cName>, <cValue>, <nSecsToExpires>, <cServerPath>, <cDomainName>, <bSecure>, <bHttpOnly> " scope="PUBLIC" type="ptFunction" line="89">
+   <tag filename="W:\RTL\Kernel\wxCookies.prg" name="DeleteCookie" args="<cName> " scope="PUBLIC" type="ptFunction" line="178">
+   <tag filename="W:\RTL\Interfaces\wxWebCGI.c" name="WXWEBCGI" args=" " scope="PUBLIC" type="ptFunction" line="240">
+   <tag filename="W:\RTL\Interfaces\wxWebCGI.c" name="wxWebCGI_Status" args="<pConn>, <Flag>, <Cargo> " scope="PUBLIC" type="ptCFunction" line="98">
+   <tag filename="W:\RTL\Interfaces\wxWebCGI.c" name="wxWebCGI_OutPut" args="<pConn>, <Source>, <Length> " scope="PUBLIC" type="ptCFunction" line="50">
+   <tag filename="W:\RTL\include\wxSerialize.h" name="MASK_TYPE_EX" args="<X> " scope="PUBLIC" type="ptPseudoFUNC" line="24">
+   <tag filename="W:\RTL\include\wxSerialize.h" name="SERIALIZE_HEADER_ITEM_SIZE" args=" " scope="PUBLIC" type="ptConstant" line="22">
+   <tag filename="W:\RTL\include\wxSerialize.h" name="_MASK_" args="<C>, <L> " scope="PUBLIC" type="ptPseudoFUNC" line="26">
+   <tag filename="W:\Compiler\wxErrorTable.PRG" name="hb_pwd" args=" " scope="PUBLIC" type="ptFunction" line="130">
+   <tag filename="W:\Compiler\wxErrorTable.PRG" name="CurrentPath" args=" " scope="PUBLIC" type="ptFunction" line="133">
+   <tag filename="W:\Compiler\wxErrorTable.PRG" name="wxErrorDesc" args="<nCode> " scope="PUBLIC" type="ptFunction" line="8">
+   <tag filename="W:\Compiler\wxErrorTable.PRG" name="GetHBPath" args="<Path> " scope="PUBLIC" type="ptFunction" line="29">
+   <tag filename="W:\Compiler\wxErrorTable.PRG" name="PathToArray" args="<cPath> " scope="PUBLIC" type="ptFunction" line="50">
+   <tag filename="W:\Compiler\wxErrorTable.PRG" name="RandomFileName" args="<cPath>, <cInvalidName> " scope="PUBLIC" type="ptFunction" line="79">
+   <tag filename="W:\RTL\Kernel\Sources\time.c" name="TIMEASSTRING" args=" " scope="PUBLIC" type="ptFunction" line="88">
+   <tag filename="W:\RTL\Kernel\Sources\time.c" name="TIMEDIFF" args=" " scope="PUBLIC" type="ptFunction" line="95">
+   <tag filename="W:\RTL\Kernel\Sources\time.c" name="TIMEISVALID" args=" " scope="PUBLIC" type="ptFunction" line="102">
+   <tag filename="W:\RTL\Kernel\Sources\time.c" name="SECONDSASDAYS" args=" " scope="PUBLIC" type="ptFunction" line="67">
+   <tag filename="W:\RTL\Kernel\Sources\time.c" name="TIMEASAMPM" args=" " scope="PUBLIC" type="ptFunction" line="74">
+   <tag filename="W:\RTL\Kernel\Sources\time.c" name="TIMEASSECONDS" args=" " scope="PUBLIC" type="ptFunction" line="81">
+   <tag filename="W:\RTL\Client\wxClientIP.prg" name="wxClientIP" args="<lLoopBack> " scope="PUBLIC" type="ptFunction" line="55">
+   <tag filename="W:\RTL\Kernel\misc\wxBase64.c" name="WXBASE64_ENCODE" args=" " scope="PUBLIC" type="ptFunction" line="177">
+   <tag filename="W:\RTL\Kernel\misc\wxBase64.c" name="wxBase64_Encode" args="<bytes_to_encode>, <in_len>, <out_len> " scope="PUBLIC" type="ptCFunction" line="102">
+   <tag filename="W:\RTL\Kernel\misc\wxBase64.c" name="WXBASE64_DECODE" args=" " scope="PUBLIC" type="ptFunction" line="216">
+   <tag filename="W:\RTL\Kernel\misc\wxBase64.c" name="is_base64" args="<c> " scope="PUBLIC" type="ptCFunction" line="36">
+   <tag filename="W:\RTL\Kernel\misc\wxBase64.c" name="wxBase64_Decode" args="<encoded_string>, <in_len>, <out_len> " scope="PUBLIC" type="ptCFunction" line="41">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_WriteOutput" args="<pConn>, <Type>, <Text>, <Size> " scope="PUBLIC" type="ptCFunction" line="1067">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Finalize" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="942">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Print" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="1211">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_PrintFullCache" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="1103">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Prepare" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="860">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_ParseBuffer" args="<pConn>, <pItem>, <bCheckParseData> " scope="PUBLIC" type="ptCFunction" line="775">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Destroy" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="910">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXCONNECTION_PREPARE" args=" " scope="PUBLIC" type="ptFunction" line="895">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXCONNECTION_CACHETYPE" args=" " scope="PUBLIC" type="ptFunction" line="1522">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXCONNECTION_EXIT" args=" " scope="PUBLIC" type="ptFunction" line="1498">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXCONNECTION_DESTROY" args=" " scope="PUBLIC" type="ptFunction" line="1597">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXCONNECTION_CREATE" args=" " scope="PUBLIC" type="ptFunction" line="1573">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_SendHeader" args="<pConn>, <Text>, <Size> " scope="PUBLIC" type="ptCFunction" line="1337">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Signature" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="1297">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXCONNECTION_INIT" args=" " scope="PUBLIC" type="ptFunction" line="1484">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_SendText" args="<pConn>, <Text>, <Size> " scope="PUBLIC" type="ptCFunction" line="1405">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_ParseMultipart" args="<pConn>, <Buffer>, <Length> " scope="PUBLIC" type="ptCFunction" line="625">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="ConnList_EnterCriticalSection" args="<a>, <b> " scope="PUBLIC" type="ptPseudoFUNC" line="190">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="ConnList_EnterCriticalSection" args="<ModuleName>, <Data> " scope="PUBLIC" type="ptCFunction" line="171">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="ConnList_LeaveCriticalSection" args="<a> " scope="PUBLIC" type="ptPseudoFUNC" line="211">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="ConnList_LeaveCriticalSection" args="<Data> " scope="PUBLIC" type="ptCFunction" line="195">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxGetModuleName" args="<format_type> " scope="PUBLIC" type="ptCFunction" line="75">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="pConnMutex" args=" " scope="PUBLIC" type="ptConstant" line="60">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_InternalError" args="<nError> " scope="PUBLIC" type="ptCFunction" line="139">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="ConnList_Debug" args=" " scope="PUBLIC" type="ptCFunction" line="114">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Create" args="<Handle>, <OutPutFunc> " scope="PUBLIC" type="ptCFunction" line="461">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Exit" args=" " scope="PUBLIC" type="ptCFunction" line="404">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_ParseCookies" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="541">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Initialize" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="516">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="ConnList_UnRegister" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="262">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="ConnList_Register" args="<pConn> " scope="PUBLIC" type="ptCFunction" line="219">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnection_Init" args=" " scope="PUBLIC" type="ptCFunction" line="375">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxGetClientConnection" args=" " scope="PUBLIC" type="ptCFunction" line="334">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETCOOKIECOUNT" args=" " scope="PUBLIC" type="ptFunction" line="2651">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETFIELDNAME" args=" " scope="PUBLIC" type="ptFunction" line="2596">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXCOOKIEEXISTS" args=" " scope="PUBLIC" type="ptFunction" line="2774">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETCOOKIE" args=" " scope="PUBLIC" type="ptFunction" line="2690">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETFIELDCOUNT" args=" " scope="PUBLIC" type="ptFunction" line="2414">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxFieldAdd" args="<pConn>, <FieldName>, <Value>, <Length>, <Encoded> " scope="PUBLIC" type="ptCFunction" line="2348">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXFIELDEXISTS" args=" " scope="PUBLIC" type="ptFunction" line="2536">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETFIELD" args=" " scope="PUBLIC" type="ptFunction" line="2452">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXLOADCONFIGFROMFILE" args=" " scope="PUBLIC" type="ptFunction" line="3254">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxLoadConfigFromFile" args="<pClientConn>, <FileName> " scope="PUBLIC" type="ptCFunction" line="3230">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETDEFAULTPARAM" args=" " scope="PUBLIC" type="ptFunction" line="3452">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXREDIRECT" args=" " scope="PUBLIC" type="ptFunction" line="3312">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxGetConfig" args="<pClientConn>, <Name>, <pValue> " scope="PUBLIC" type="ptCFunction" line="2880">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETCOOKIENAME" args=" " scope="PUBLIC" type="ptFunction" line="2832">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxLoadConfigFromBuffer" args="<pClientConn>, <Buffer>, <Length> " scope="PUBLIC" type="ptCFunction" line="3057">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETCONFIG" args=" " scope="PUBLIC" type="ptFunction" line="2998">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXGETENV" args=" " scope="PUBLIC" type="ptFunction" line="2339">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXQOUTDIRECT" args=" " scope="PUBLIC" type="ptFunction" line="1773">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXQQOUTDIRECT" args=" " scope="PUBLIC" type="ptFunction" line="1750">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXSENDHEADER" args=" " scope="PUBLIC" type="ptFunction" line="1839">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXSENDHEADERDIRECT" args=" " scope="PUBLIC" type="ptFunction" line="1793">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXQQOutAux" args="<HasPtr>, <lSendCRLF> " scope="PUBLIC" type="ptCFunction" line="1638">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxWebConOut" args="<pConn>, <uiParam> " scope="PUBLIC" type="ptCFunction" line="1607">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXQOUT" args=" " scope="PUBLIC" type="ptFunction" line="1728">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXQQOUT" args=" " scope="PUBLIC" type="ptFunction" line="1709">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXSERVER" args=" " scope="PUBLIC" type="ptFunction" line="2142">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXSERVERNAME" args=" " scope="PUBLIC" type="ptFunction" line="2033">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXSERVERCOUNT" args=" " scope="PUBLIC" type="ptFunction" line="2305">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxServerCount" args="<pClientConn>, <Count> " scope="PUBLIC" type="ptCFunction" line="2262">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxWebRegisterOutputFunc" args="<pClientConn>, <FuncName> " scope="PUBLIC" type="ptCFunction" line="1915">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxConnectionCallerOutputFunc" args="<pData>, <Source>, <Length> " scope="PUBLIC" type="ptCFunction" line="1865">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="wxServerAdd" args="<pClientConn>, <Pos>, <Value>, <Length>, <KeyName> " scope="PUBLIC" type="ptCFunction" line="1984">
+   <tag filename="W:\RTL\Kernel\wxConnManager.c" name="WXWEBREGISTEROUTPUTFUNC" args=" " scope="PUBLIC" type="ptFunction" line="1953">
+   <tag filename="W:\RTL\include\wxBuildInfo.ch" name="_HBMK_BUILD_DATE_" args=" " scope="PUBLIC" type="ptConstant" line="1">
+   <tag filename="W:\RTL\include\wxBuildInfo.ch" name="_HBMK_BUILD_TIME_" args=" " scope="PUBLIC" type="ptConstant" line="2">
+   <tag filename="W:\RTL\include\wxBuildInfo.ch" name="_HBMK_BUILD_TIMESTAMP_" args=" " scope="PUBLIC" type="ptConstant" line="3">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="wxWebAdjustPath" args="<Path>, <Default> " scope="PUBLIC" type="ptCFunction" line="269">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="wxAdJustPath" args="<Path>, <Default> " scope="PUBLIC" type="ptCFunction" line="216">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="WebAdjustPath" args="<cPath>, <cDefaultPathIFEmpty> " scope="PUBLIC" type="ptFunction" line="188">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="AdjustPath" args="<cPath>, <cDefaultPathIFEmpty> " scope="PUBLIC" type="ptFunction" line="147">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="ExtractFilePath" args="<cFileName> " scope="PUBLIC" type="ptFunction" line="122">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="ExtractFileExt" args="<cFileName> " scope="PUBLIC" type="ptFunction" line="100">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="ExtractFileNameEx" args="<cFileName> " scope="PUBLIC" type="ptFunction" line="77">
+   <tag filename="W:\RTL\Files\wxFilesUtils.prg" name="ExtractFileName" args="<cFileName> " scope="PUBLIC" type="ptFunction" line="37">
+   <tag filename="W:\RTL\include\wxConnManager.h" name="HB_FETCH_THREAD" args=" " scope="PUBLIC" type="ptConstant" line="110">
+   <tag filename="W:\RTL\include\wxConnManager.h" name="WXWEB_MAX_CONN_NUM" args=" " scope="PUBLIC" type="ptConstant" line="19">
+   <tag filename="W:\RTL\Scripts\wxWebScript.prg" name="LoadFrom" args="<cBuffer>, <cFileName> " scope="PUBLIC" type="ptMethod" line="100">
+   <tag filename="W:\RTL\Scripts\wxWebScript.prg" name="LoadFromFile" args="<cFileName> " scope="PUBLIC" type="ptMethod" line="75">
+   <tag filename="W:\RTL\Scripts\wxWebScript.prg" name="Destroy" args=") <CLASS><TWebScript> " scope="PUBLIC" type="ptProcedure" line="59">
+   <tag filename="W:\RTL\Scripts\wxWebScript.prg" name="Clear" args=" " scope="PUBLIC" type="ptMethod" line="208">
+   <tag filename="W:\RTL\Scripts\wxWebScript.prg" name="UnLoad" args=" " scope="PUBLIC" type="ptMethod" line="190">
+   <tag filename="W:\RTL\Scripts\wxWebScript.prg" name="Renderize" args=" " scope="PUBLIC" type="ptMethod" line="161">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWin31" args=" " scope="PUBLIC" type="ptFunction" line="684">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWinME" args=" " scope="PUBLIC" type="ptFunction" line="677">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWin95" args=" " scope="PUBLIC" type="ptFunction" line="669">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWin98" args=" " scope="PUBLIC" type="ptFunction" line="662">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWinXPSP2" args=" " scope="PUBLIC" type="ptFunction" line="655">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWinXP" args=" " scope="PUBLIC" type="ptFunction" line="647">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWinSE" args=" " scope="PUBLIC" type="ptFunction" line="640">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWinVista" args=" " scope="PUBLIC" type="ptFunction" line="633">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWin7" args=" " scope="PUBLIC" type="ptFunction" line="625">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxHave64Proc" args=" " scope="PUBLIC" type="ptFunction" line="614">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxGetDeviceRes" args=" " scope="PUBLIC" type="ptFunction" line="544">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsSmartPhone" args=" " scope="PUBLIC" type="ptFunction" line="526">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsPocketPC" args=" " scope="PUBLIC" type="ptFunction" line="514">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsUnix" args=" " scope="PUBLIC" type="ptFunction" line="503">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsMAC" args=" " scope="PUBLIC" type="ptFunction" line="496">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsLinux" args=" " scope="PUBLIC" type="ptFunction" line="489">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsWin32" args=" " scope="PUBLIC" type="ptFunction" line="482">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxDeviceType" args=" " scope="PUBLIC" type="ptFunction" line="467">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxOSVersion" args=" " scope="PUBLIC" type="ptFunction" line="440">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxBrowserVersion" args=" " scope="PUBLIC" type="ptFunction" line="410">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxBrowserName" args="<lLongName> " scope="PUBLIC" type="ptFunction" line="346">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxPalmOSVersion" args=" " scope="PUBLIC" type="ptFunction" line="320">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsPalmOS" args=" " scope="PUBLIC" type="ptFunction" line="310">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxNetscapeVersion" args=" " scope="PUBLIC" type="ptFunction" line="282">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsNetscape" args=" " scope="PUBLIC" type="ptFunction" line="272">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxSafariVersion" args=" " scope="PUBLIC" type="ptFunction" line="247">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsSafari" args=" " scope="PUBLIC" type="ptFunction" line="237">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxChromeVersion" args=" " scope="PUBLIC" type="ptFunction" line="208">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsChrome" args=" " scope="PUBLIC" type="ptFunction" line="198">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxOperaVersion" args=" " scope="PUBLIC" type="ptFunction" line="170">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsOpera" args=" " scope="PUBLIC" type="ptFunction" line="160">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxFireFoxVersion" args=" " scope="PUBLIC" type="ptFunction" line="130">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsFireFox" args=" " scope="PUBLIC" type="ptFunction" line="120">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIEversion" args=" " scope="PUBLIC" type="ptFunction" line="88">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxIsIE" args=" " scope="PUBLIC" type="ptFunction" line="79">
+   <tag filename="W:\RTL\Client\wxBrowserInfo.prg" name="wxGetClientUserAgent" args=" " scope="PUBLIC" type="ptFunction" line="55">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="xWeb_Raise" args="<cError>, <cFileName>, <nErrorNumber> " scope="PUBLIC" type="ptFunction" line="169">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="xWeb_RaiseError" args="<cError>, <cFileName>, <nErrorNumber> " scope="PUBLIC" type="ptFunction" line="166">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="xWeb_RaiseErrorNum" args="<nError>, <aArgs> " scope="PUBLIC" type="ptFunction" line="202">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="wxGetErrorMessage" args="<oError> " scope="PUBLIC" type="ptFunction" line="269">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="xWeb_RaiseNum" args="<nError>, <aArgs> " scope="PUBLIC" type="ptFunction" line="205">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="GetErrorListMsgs" args=" " scope="PUBLIC" type="ptFunction" line="22">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="CRLF" args=" " scope="PUBLIC" type="ptConstant" line="7">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="ErrorSys" args=" " scope="PUBLIC" type="ptProcedure" line="44">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="wxWebDefError" args="<oError>, <lClearBuffer> " scope="PUBLIC" type="ptFunction" line="57">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="wxWebErrorSys" args=" " scope="PUBLIC" type="ptProcedure" line="48">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="LogError" args="<oerr>, <cMessage> " scope="PUBLIC" type="ptFunction" line="308">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="FindFile" args="<cPath>, <cFileName> " scope="PUBLIC" type="ptFunction" line="810">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="xWebLogUserInfo" args="<lFormat> " scope="PUBLIC" type="ptFunction" line="783">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="LINE_SPACE" args=" " scope="PUBLIC" type="ptConstant" line="866">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="WXERRORGETTEMPLATE" args=" " scope="PUBLIC" type="ptFunction" line="1023">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="XWEBLOADPRGSOURCE" args=" " scope="PUBLIC" type="ptFunction" line="869">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="FWriteLine" args="<nh>, <c> " scope="PUBLIC" type="ptFunction" line="504">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="strvalue" args="<c>, <l> " scope="PUBLIC" type="ptFunction" line="481">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="Arguments" args="<oErr> " scope="PUBLIC" type="ptFunction" line="508">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="xWebLogServerVars" args="<lFormat> " scope="PUBLIC" type="ptFunction" line="716">
+   <tag filename="W:\RTL\Kernel\wxWebErrorSys.prg" name="xWeb_ParseParms" args="<ErrorMessage> " scope="PUBLIC" type="ptFunction" line="528">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="MAX_SERVER_VARS" args=" " scope="PUBLIC" type="ptConstant" line="237">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SESSION_PATH" args=" " scope="PUBLIC" type="ptConstant" line="236">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="AUTH_USER" args=" " scope="PUBLIC" type="ptConstant" line="235">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="AUTH_TYPE" args=" " scope="PUBLIC" type="ptConstant" line="234">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="AUTH_PASSWORD" args=" " scope="PUBLIC" type="ptConstant" line="233">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_AUTHORIZATION" args=" " scope="PUBLIC" type="ptConstant" line="232">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_COOKIE" args=" " scope="PUBLIC" type="ptConstant" line="231">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_CONNECTION" args=" " scope="PUBLIC" type="ptConstant" line="230">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="REQUEST_URI" args=" " scope="PUBLIC" type="ptConstant" line="229">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="RESPONSE_CONTENT" args=" " scope="PUBLIC" type="ptConstant" line="228">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SERVER_PORT" args=" " scope="PUBLIC" type="ptConstant" line="227">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SERVER_NAME" args=" " scope="PUBLIC" type="ptConstant" line="226">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SERVER_SOFTWARE" args=" " scope="PUBLIC" type="ptConstant" line="225">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SCRIPT_NAME" args=" " scope="PUBLIC" type="ptConstant" line="224">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="REMOTE_HOST" args=" " scope="PUBLIC" type="ptConstant" line="223">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="REMOTE_PORT" args=" " scope="PUBLIC" type="ptConstant" line="222">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="REMOTE_ADDR" args=" " scope="PUBLIC" type="ptConstant" line="221">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_TITLE" args=" " scope="PUBLIC" type="ptConstant" line="220">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_EXPIRES" args=" " scope="PUBLIC" type="ptConstant" line="219">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_DERIVED_FROM" args=" " scope="PUBLIC" type="ptConstant" line="218">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_CONTENT_VERSION" args=" " scope="PUBLIC" type="ptConstant" line="217">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_CONTENT_BUFFER" args=" " scope="PUBLIC" type="ptConstant" line="216">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_CONTENT_LENGTH" args=" " scope="PUBLIC" type="ptConstant" line="215">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_CONTENT_TYPE" args=" " scope="PUBLIC" type="ptConstant" line="214">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_CONTENT_ENCODING" args=" " scope="PUBLIC" type="ptConstant" line="213">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_USER_AGENT" args=" " scope="PUBLIC" type="ptConstant" line="212">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_REFERER" args=" " scope="PUBLIC" type="ptConstant" line="211">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_IF_MODIFIED_SINCE" args=" " scope="PUBLIC" type="ptConstant" line="210">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_HOST" args=" " scope="PUBLIC" type="ptConstant" line="209">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_FROM" args=" " scope="PUBLIC" type="ptConstant" line="208">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_ACCEPT" args=" " scope="PUBLIC" type="ptConstant" line="207">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_DATE" args=" " scope="PUBLIC" type="ptConstant" line="206">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HTTP_CACHE_CONTROL" args=" " scope="PUBLIC" type="ptConstant" line="205">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="PATH_TRANSLATED" args=" " scope="PUBLIC" type="ptConstant" line="204">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="PATH_INFO" args=" " scope="PUBLIC" type="ptConstant" line="203">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="QUERY_STRING" args=" " scope="PUBLIC" type="ptConstant" line="202">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SERVER_URL" args=" " scope="PUBLIC" type="ptConstant" line="201">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SERVER_PROTOCOL" args=" " scope="PUBLIC" type="ptConstant" line="200">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="REQUEST_METHOD" args=" " scope="PUBLIC" type="ptConstant" line="199">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_DEFAULTTYPECOLUMN" args=" " scope="PUBLIC" type="ptConstant" line="196">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_HYPERLINKCOLUMN" args=" " scope="PUBLIC" type="ptConstant" line="195">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_BUTTONCOLUMN" args=" " scope="PUBLIC" type="ptConstant" line="194">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_BOUNDCOLUMN" args=" " scope="PUBLIC" type="ptConstant" line="193">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_EVENT_SELCHANGE" args=" " scope="PUBLIC" type="ptConstant" line="190">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_EVENT_NEXTPAGE" args=" " scope="PUBLIC" type="ptConstant" line="189">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_EVENT_PREVIOUSPAGE" args=" " scope="PUBLIC" type="ptConstant" line="188">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_EVENT_GOTOPAGE" args=" " scope="PUBLIC" type="ptConstant" line="187">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_EVENT_CUSTOM" args=" " scope="PUBLIC" type="ptConstant" line="185">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_EVENT_NONE" args=" " scope="PUBLIC" type="ptConstant" line="184">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_NUMERIC_PAGES" args=" " scope="PUBLIC" type="ptConstant" line="181">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_NEXTPREV_PAGES" args=" " scope="PUBLIC" type="ptConstant" line="180">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DATA_JSCRIPT" args=" " scope="PUBLIC" type="ptConstant" line="179">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="REQUITEDVALIDATOR_JSCRIPT" args=" " scope="PUBLIC" type="ptConstant" line="176">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="LISTITEM_CHECKED" args=" " scope="PUBLIC" type="ptConstant" line="173">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="LISTITEM_VALUE" args=" " scope="PUBLIC" type="ptConstant" line="172">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="LISTITEM_CAPTION" args=" " scope="PUBLIC" type="ptConstant" line="171">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="LISTBOX_JSCRIPT" args=" " scope="PUBLIC" type="ptConstant" line="170">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="PAGE_FOCUSSCRIPT" args=" " scope="PUBLIC" type="ptConstant" line="167">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="PAGE_JSCRIPT" args=" " scope="PUBLIC" type="ptConstant" line="166">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="JS_ALL_FORM" args=" " scope="PUBLIC" type="ptConstant" line="163">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="JS_AT_SUBMIT" args=" " scope="PUBLIC" type="ptConstant" line="162">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="JS_BEGIN_CSS" args=" " scope="PUBLIC" type="ptConstant" line="161">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="JS_BEGIN_HEAD" args=" " scope="PUBLIC" type="ptConstant" line="160">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="JS_END_FORM" args=" " scope="PUBLIC" type="ptConstant" line="159">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="JS_BEGIN_FORM" args=" " scope="PUBLIC" type="ptConstant" line="158">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ERR_SSIDWRITEERROR" args=" " scope="PUBLIC" type="ptConstant" line="155">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ERR_HEADERSHASSEND" args=" " scope="PUBLIC" type="ptConstant" line="154">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ERR_NODEFAULTPAGE" args=" " scope="PUBLIC" type="ptConstant" line="153">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ERR_FILENOTFOUND" args=" " scope="PUBLIC" type="ptConstant" line="152">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ERR_ARGERROR" args=" " scope="PUBLIC" type="ptConstant" line="151">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ERR_GENERIC" args=" " scope="PUBLIC" type="ptConstant" line="150">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ENUM_CONFIG_OPTIONS" args=" " scope="PUBLIC" type="ptConstant" line="144">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="CRLF" args=" " scope="PUBLIC" type="ptConstant" line="143">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="Full" args="<x> " scope="PUBLIC" type="ptPseudoFUNC" line="141">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="NTrim" args="<x> " scope="PUBLIC" type="ptPseudoFUNC" line="140">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="lUpper" args="<x> " scope="PUBLIC" type="ptPseudoFUNC" line="139">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="INHERITED" args=" " scope="PUBLIC" type="ptConstant" line="138">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="FALSE" args=" " scope="PUBLIC" type="ptConstant" line="137">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="TRUE" args=" " scope="PUBLIC" type="ptConstant" line="136">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ATTR_VALUE" args=" " scope="PUBLIC" type="ptConstant" line="114">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="ATTR_KEY" args=" " scope="PUBLIC" type="ptConstant" line="113">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="CSS_VALUE" args=" " scope="PUBLIC" type="ptConstant" line="111">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="CSS_KEY" args=" " scope="PUBLIC" type="ptConstant" line="110">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HFIELD_VALUE" args=" " scope="PUBLIC" type="ptConstant" line="108">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="HFIELD_KEY" args=" " scope="PUBLIC" type="ptConstant" line="107">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SCRIPT_POS" args=" " scope="PUBLIC" type="ptConstant" line="105">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SCRIPT_VALUE" args=" " scope="PUBLIC" type="ptConstant" line="104">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="SCRIPT_KEY" args=" " scope="PUBLIC" type="ptConstant" line="103">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="VIEWSTS_VALUE" args=" " scope="PUBLIC" type="ptConstant" line="101">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="VIEWSTS_KEY" args=" " scope="PUBLIC" type="ptConstant" line="100">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DEF_SESSION_LIFETIME" args=" " scope="PUBLIC" type="ptConstant" line="98">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="DEF_SESSION_NAME" args=" " scope="PUBLIC" type="ptConstant" line="93">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="MAX_SESSION_LEN" args=" " scope="PUBLIC" type="ptConstant" line="91">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="MAX_FIELD_LEN" args=" " scope="PUBLIC" type="ptConstant" line="87">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="URL_MAX_LEN" args=" " scope="PUBLIC" type="ptConstant" line="83">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WXS_SIGNATURE" args=" " scope="PUBLIC" type="ptConstant" line="75">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_SCRIPT_HTML" args=" " scope="PUBLIC" type="ptConstant" line="74">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_SCRIPT_WXS" args=" " scope="PUBLIC" type="ptConstant" line="73">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_SCRIPT_NONE" args=" " scope="PUBLIC" type="ptConstant" line="72">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_CACHE_FULL" args=" " scope="PUBLIC" type="ptConstant" line="69">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_CACHE_DEFAULT" args=" " scope="PUBLIC" type="ptConstant" line="68">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_CACHE_NONE" args=" " scope="PUBLIC" type="ptConstant" line="67">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_ERROR_SUBSYSTEM_INVALID" args=" " scope="PUBLIC" type="ptConstant" line="64">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_NOERROR" args=" " scope="PUBLIC" type="ptConstant" line="63">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_PRG_LONG" args=" " scope="PUBLIC" type="ptConstant" line="60">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_PRG_SHORT" args=" " scope="PUBLIC" type="ptConstant" line="59">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_SUCCESS" args=" " scope="PUBLIC" type="ptConstant" line="56">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_FAILURE" args=" " scope="PUBLIC" type="ptConstant" line="55">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WXWEB_DEFEXT" args=" " scope="PUBLIC" type="ptConstant" line="52">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WXWEB_OBJ_SIGNATURE_LEN" args=" " scope="PUBLIC" type="ptConstant" line="50">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WXWEB_OBJ_SIGNATURE_STR" args=" " scope="PUBLIC" type="ptConstant" line="49">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_SESSION_NAME_LEN" args=" " scope="PUBLIC" type="ptConstant" line="47">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_BODY" args=" " scope="PUBLIC" type="ptConstant" line="46">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_HEADER" args=" " scope="PUBLIC" type="ptConstant" line="45">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WX_NONE" args=" " scope="PUBLIC" type="ptConstant" line="44">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WEB_STAND_ALONE" args=" " scope="PUBLIC" type="ptConstant" line="42">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WEB_ISAPI_MODE" args=" " scope="PUBLIC" type="ptConstant" line="41">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WEB_CGI_MODE" args=" " scope="PUBLIC" type="ptConstant" line="40">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WXWEB_VERSION2" args=" " scope="PUBLIC" type="ptConstant" line="38">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="WXWEB_VERSION" args=" " scope="PUBLIC" type="ptConstant" line="37">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="XWEB_NAME" args=" " scope="PUBLIC" type="ptConstant" line="33">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="XWEB_NAME" args=" " scope="PUBLIC" type="ptConstant" line="31">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="XWEB_NAME" args=" " scope="PUBLIC" type="ptConstant" line="27">
+   <tag filename="W:\RTL\include\wxWebFramework.ch" name="XWEB_NAME" args=" " scope="PUBLIC" type="ptConstant" line="25">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="TEMPLATE_PARAMS" args=" " scope="PUBLIC" type="ptConstant" line="25">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="CR" args=" " scope="PUBLIC" type="ptConstant" line="27">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="LF" args=" " scope="PUBLIC" type="ptConstant" line="28">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="TEMPLATE_NONE" args=" " scope="PUBLIC" type="ptConstant" line="22">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="TEMPLATE_HTML" args=" " scope="PUBLIC" type="ptConstant" line="23">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="TEMPLATE_SCRIPT" args=" " scope="PUBLIC" type="ptConstant" line="24">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="Unload" args=" " scope="PUBLIC" type="ptFunction" line="41">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="LoadFrom" args="<cBuffer> " scope="PUBLIC" type="ptMethod" line="124">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="Renderize" args=" " scope="PUBLIC" type="ptMethod" line="191">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="B1C3E6BB0H" args="<T>, <inParams>, <Self>, <aContent> " scope="PUBLIC" type="ptFunction" line="219">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="Error" args=" " scope="PUBLIC" type="ptFunction" line="50">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="LoadFromFile" args="<cFileName> " scope="PUBLIC" type="ptMethod" line="74">
+   <tag filename="W:\RTL\Scripts\wxWebTemplate.prg" name="Params" args="<field>, <value> " scope="PUBLIC" type="ptMethod" line="86">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_UpdateItem" args="<pItem>, <pValue> " scope="PUBLIC" type="ptCFunction" line="198">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_UpdateStrPtr" args="<pItem>, <Source>, <Length> " scope="PUBLIC" type="ptCFunction" line="241">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_AddItem" args="<pBuffer>, <pValue> " scope="PUBLIC" type="ptCFunction" line="127">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_UpdateStr" args="<pItem>, <Source>, <Length> " scope="PUBLIC" type="ptCFunction" line="156">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_GetCPtr" args="<pItem>, <Length> " scope="PUBLIC" type="ptCFunction" line="277">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_Finalize" args="<pBuffer> " scope="PUBLIC" type="ptCFunction" line="47">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_Create" args=" " scope="PUBLIC" type="ptCFunction" line="30">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_AddStr" args="<pBuffer>, <Source>, <Length>, <bInsertCRLF> " scope="PUBLIC" type="ptCFunction" line="89">
+   <tag filename="W:\RTL\Kernel\wxRepositoryItem.c" name="RepositoryList_Destroy" args="<pBuffer> " scope="PUBLIC" type="ptCFunction" line="76">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="HREF" args=" " scope="PUBLIC" type="ptFunction" line="163">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="MARQUEE" args=" " scope="PUBLIC" type="ptFunction" line="151">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="SMALL" args=" " scope="PUBLIC" type="ptFunction" line="140">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="BIG" args=" " scope="PUBLIC" type="ptFunction" line="130">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="HR" args=" " scope="PUBLIC" type="ptFunction" line="121">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="CR" args=" " scope="PUBLIC" type="ptFunction" line="112">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="NBSP" args=" " scope="PUBLIC" type="ptFunction" line="103">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="BR" args=" " scope="PUBLIC" type="ptFunction" line="94">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="wxMakeWrapperResultFormatted" args="<Tag>, <Text>, <Length> " scope="PUBLIC" type="ptCFunction" line="59">
+   <tag filename="W:\RTL\ClipX\HTMLPageFormatting.c" name="wxMakeRepeaterResult" args="<Buffer>, <nCount> " scope="PUBLIC" type="ptCFunction" line="34">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="ReadListStr" args="<buff> " scope="PUBLIC" type="ptCFunction" line="108">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="wxCreateNewOBJ" args="<ClsName> " scope="PUBLIC" type="ptCFunction" line="153">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="ReadString" args="<buff>, <StrLen>, <OutPut>, <OutPutSize>, <MaxSize> " scope="PUBLIC" type="ptCFunction" line="63">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="ReadSet" args="<buff>, <OutPut>, <OutPutSize>, <MaxSize> " scope="PUBLIC" type="ptCFunction" line="84">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="wxFormParseFromBuffer" args="<pForm> " scope="PUBLIC" type="ptCFunction" line="407">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="WXFORMPARSEFROMBUFFER" args=" " scope="PUBLIC" type="ptFunction" line="455">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="wxObjSetProp" args="<pObj>, <cProp>, <pValue> " scope="PUBLIC" type="ptCFunction" line="183">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="RestoreObj" args="<pForm>, <PropValue> " scope="PUBLIC" type="ptCFunction" line="216">
+   <tag filename="W:\RTL\WebControls\wxParserForm.c" name="ReadType" args="<x> " scope="PUBLIC" type="ptPseudoFUNC" line="41">
+   <tag filename="W:\RTL\include\wxRepositoryItem.h" name="WXREPOSITORY_HEADER" args=" " scope="PUBLIC" type="ptConstant" line="17">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXCOALESESTR" args=" " scope="PUBLIC" type="ptFunction" line="129">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXLISTASARRAY" args=" " scope="PUBLIC" type="ptFunction" line="175">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXENSURENUMERICSTRING" args=" " scope="PUBLIC" type="ptFunction" line="426">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXCOALESE" args=" " scope="PUBLIC" type="ptFunction" line="91">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXENSUREBOOLEAN" args=" " scope="PUBLIC" type="ptFunction" line="302">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXENSURENUMERIC" args=" " scope="PUBLIC" type="ptFunction" line="359">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXSAMETEXT" args=" " scope="PUBLIC" type="ptFunction" line="42">
+   <tag filename="W:\RTL\Kernel\misc\wxStringUtils.c" name="WXENSURESTRING" args=" " scope="PUBLIC" type="ptFunction" line="262">
+   <tag filename="W:\RTL\Kernel\Sources\wxcgifunc.prg" name="FT_ELAPSED" args="<dStart>, <dEnd>, <cTimeStart>, <cTimeEnd> " scope="PUBLIC" type="ptFunction" line="158">
+   <tag filename="W:\RTL\Kernel\Sources\wxcgifunc.prg" name="TimeDiffAsSeconds" args="<dDateStart>, <dDateEnd>, <cTimeStart>, <cTimeEnd> " scope="PUBLIC" type="ptFunction" line="143">
+   <tag filename="W:\RTL\Kernel\Sources\wxcgifunc.prg" name="AddSecondsToTime" args="<cTime>, <nSecsToAdd>, <nDaysAdded> " scope="PUBLIC" type="ptFunction" line="113">
+   <tag filename="W:\RTL\Kernel\Sources\wxcgifunc.prg" name="DateToGMT" args="<dDate>, <cTime>, <nDayToAdd>, <nSecsToAdd> " scope="PUBLIC" type="ptFunction" line="67">
+   <tag filename="W:\RTL\Kernel\Sources\wxcgifunc.prg" name="CRLF" args=" " scope="PUBLIC" type="ptConstant" line="36">
+</taglist>

@@ -1,0 +1,35 @@
+AVISO DE PERMISSÃO E DIREITOS DE AUTOR
+
+Copyright (c) 2006-2009, Vailton Renato da Silva, Brasil - vailtom@gmail.com
+Todos os direitos reservados.
+
+São permitidas a redistribuição e utilização na forma binária ou código-fonte,
+com ou sem modificações, desde que sejam respeitadas as seguintes condições:
+
+1. As redistribuições do código-fonte devem conter o aviso de direitos de autor
+acima indicado,esta lista de condições e a seguinte exclusão de responsabilidade.
+
+2. As redistribuições em forma binária devem conter o aviso de direitos de autor
+acima indicado,esta lista de condições e a seguinte exclusão de responsabilidade
+na documentação e/ou outros materiais disponibilizados para distribuição.
+
+3. Todas as modificações do código-fonte devem ser claramente assinaladas como
+tal. As redistribuições da forma binária baseadas em código-fonte modificado
+devem ser claramente assinaladas como versões modificadas em toda a documentação
+e/ou outros materiais disponibilizados para distribuição e não devem omitir o
+nome do autor original citado acima.
+
+4. O nome de Vailton Renato da Silva não pode ser usado para apoiar ou promover
+produtos derivados deste software sem a respectiva prévia autorização por escrito.
+
+ESTE SOFTWARE É FORNECIDO POR VAILTON RENATO DA SILVA E COLABORADORES "TAL COMO
+ESTÁ" ISENTO DE QUAISQUER GARANTIAS, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, ENTRE
+OUTRAS,AS GARANTIAS IMPLÍCITAS DE COMERCIALIZAÇÃO E ADEQUAÇÃO PARA UMA UTILIZAÇÃO
+ESPECÍFICA. VAILTON RENATO DA SILVA OU COLABORADORES NÃO PODEM, EM NENHUMA
+CIRCUNSTÂNCIA, SER RESPONSABILIZADOS POR QUAISQUER DANOS DIRECTOS, INDIRECTOS,
+ACIDENTAIS, ESPECIAIS, EXEMPLARES OU CONSEQUENTES (INCLUINDO, ENTRE OUTROS,
+OBTENÇÃO OU SUBSTITUIÇÃO DE BENS OU SERVIÇOS; PERDA DE UTILIZAÇÃO, DE DADOS OU
+DE PROVEITOS; OU INTERRUPÇÃO DE ATIVIDADE) QUALQUER QUE SEJA A CAUSA OU EVENTUAL
+RESPONSABILIDADE, QUER CONTRATUAL, RESPONSABILIDADE OBJETIVA OU ACTO ILÍCITO
+(INCLUINDO NEGLIGÊNCIA OU OUTRA) QUE POSSA OCORRER DEVIDO À UTILIZAÇÃO DESTE
+SOFTWARE, APESAR DO AVISO DA POSSIBILIDADE DA OCORRÊNCIA DESSE DANO.
